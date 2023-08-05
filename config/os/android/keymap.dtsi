@@ -1,0 +1,132 @@
+        android_base_layer {
+            #define AB13  &hm_aBAS_LG  LCMD   0  //A
+            #define AB14  &hm LCTRL    R
+            #define AB15  &hm LALT     S
+            #define AB16  &hm LSHFT    T
+
+            #define AB19  &hm_aBAS_RS  RSHFT  0  //N
+            #define AB20  &hm_aBAS_RA  RALT   0  //E
+            #define AB21  &hm_aBAS_RC  RCTRL  0  //I
+            #define AB22  &hm_aBAS_RG  RCMD   0  //O
+
+            #define AB35  &mp_a_stg
+
+            #define AB36  &mp_a_dev
+            #define AB38  &mo_aAXNaBAS_to_aAXN  0  0
+            #define AB39  &mo_aAXNaBAS_to_aFNK  0  0
+            #define AB41  &mp_a_dev
+
+            label = "aBAS";
+            bindings = <
+    AKY_ESC  &kp Q  &kp W  &kp F    &kp P  &kp B             &kp J    &kp L  &mp_ai_u  &mp_ai_y   &mp_k_m   NAV_DEL
+     &mp_bc   AB13   AB14   AB15     AB16  &kp G             &kp M     AB19      AB20      AB21      AB22  NAV_BSPC
+    AKY_TAB  &kp Z  &kp X  &kp C    &kp D  &kp V             &kp K    &kp H    &mp_cs    &mp_dc  &mp_ak_q      AB35
+                            AB36  KEY_SPC   AB38              AB39  AKY_RET      AB41
+            >;
+        };
+
+        android_dev_layer {
+            #define AD13  &hm_aDEV_LG  LCMD    0
+            #define AD14  &hm          LCTRL   LBRC
+            #define AD15  &hm          LALT    RBRC
+            #define AD16  &hm_aDEV_LS  LSHFT   0
+
+            #define AD19  &hm_aDEV_RS  RSHFT   0
+            #define AD20  &hm          RALT    LBKT
+            #define AD21  &hm          RCTRL   RBKT
+            #define AD22  &hm_aDEV_RG  RCMD    0
+
+            #define AD38  &mo_aAXNaDEV_to_aBAS  0  0
+            #define AD39  &mo_aAXNaDEV_to_aAXN  0  0
+
+            label = "aDEV";
+            bindings = <
+    AKY_ESC     &kp AT &kp POUND  &kp DLLR  &mp_aDEV_p   &m_ai_d               &m_ai_t   &mp_aDEV_m    &kp UNDER    &kp PRCNT      &m_ai_c   NAV_DEL
+     &mp_bc       AD13      AD14      AD15        AD16   &m_ai_s               &m_ai_g         AD19         AD20         AD21         AD22  NAV_BSPC
+    AKY_TAB  &kp LC(R)  &kp LPAR  &kp RPAR  &mp_aDEV_a  &kp BSLH            &mp_aDEV_s  &mp_aDEV_qs  &mp_aDEV_lt  &mp_aDEV_gt  &mp_aDEV_ql     &none
+                                    &mp_cs     KEY_SPC      AD38                  AD39      AKY_RET       &mp_dc
+            >;
+        };
+
+        android_act_num_layer {
+            #define AA01  &kp  LA(LS(RIGHT))        // tap: expand selection
+            #define AA02  &kp  LC(LS(TAB))          // tap: prev tab
+            #define AA04  &kp  LC(TAB)              // tap: next tab
+            #define AA05  &kp  LC(F)                // tap: find
+            #define AA13  &hm  LCMD   LA(LS(LEFT))  // tap: shrink selection
+            #define AA14  &hm  LCTRL  LEFT
+            #define AA15  &hm  LALT   DOWN
+            #define AA16  &hm  LSHFT  RIGHT
+            #define AA17  &kp  LC(H)                // tap: replace
+
+            #define AA19  &hm  RSHFT  N4
+            #define AA20  &hm  RALT   N5
+            #define AA21  &hm  RCTRL  N6
+            #define AA22  &hm  RCMD   EQUAL
+
+            #define AA38  &to_aBAS
+            #define AA39  &mo_aFNKaAXN_to_aFNK    0 0
+
+            #define KEY_UNDO   &kp LC(Z)       // tap: undo
+            #define KEY_REDO   &kp LC(LS(Z))   // tap: redo
+            #define KEY_CUT    &kp LC(X)       // tap: cut
+            #define KEY_COPY   &kp LC(C)       // tap: copy
+            #define KEY_PASTE  &kp LC(V)       // tap: paste
+
+            label = "aAXN";
+            bindings = <
+    AKY_ESC      AA01     AA02    &kp UP       AA04      AA05            &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY   NAV_DEL
+     &mp_bc      AA13     AA14      AA15       AA16      AA17                 &kp N0     AA19    AA20    AA21             AA22  NAV_BSPC
+    AKY_TAB  KEY_UNDO  KEY_CUT  KEY_COPY  KEY_PASTE  KEY_REDO                &mp_k_m   &kp N1  &kp N2  &kp N3    &kp KP_DIVIDE     &none
+                                  &mp_cs    KEY_SPC      AA38                   AA39  AKY_RET  &mp_dc
+            >;
+        };
+
+        android_functions_layer {
+            #define AK13  &hm LCMD   F5
+            #define AK14  &hm LCTRL  F6
+            #define AK15  &hm LALT   F7
+            #define AK16  &hm LSHFT  F8
+
+            #define AK19  &hm RSHFT  HOME
+            #define AK20  &hm RALT   PG_DN
+            #define AK21  &hm RCTRL  END
+            #define AK22  &kp RCMD
+
+            #define AK38  &to_aBAS
+            #define AK39  &to_aAXN
+
+            label = "aFNK";
+            bindings = <
+    AKY_ESC  &kp F9  &kp F10  &kp F11  &kp F12  &none                  &none    &none  &kp PG_UP  &none  &none   NAV_DEL
+     &mp_bc    AK13     AK14     AK15     AK16  &none                  &none     AK19       AK20   AK21   AK22  NAV_BSPC
+    AKY_TAB  &kp F1   &kp F2   &kp F3   &kp F4  &none                  &none    &none      &none  &none  &none     &none
+                               &mp_cs  KEY_SPC   AK38                   AK39  AKY_RET     &mp_dc
+            >;
+        };
+
+        android_settings_layer {
+            #define AS10  &kp LG(N)            // tap: notifications
+            #define AS11  &m_as_a              // tap: apps
+            #define AS12  &kp LG(K)            // tap: shortcuts
+            #define AS24  &bt BT_CLR           // tap: clear Bluetooth
+
+            #define AS22  &kp LG(RET)          // tap: home
+            #define AS23  &kp LG(FSLH)         // tap: keyboard shortcuts
+
+            #define AS04  &kp LG(B)            // tap: browser
+            #define AS05  &kp LCMD             // tap: assist
+            #define AS16  &kp LG(L)            // tap: calendar
+            #define AS17  &kp LG(P)            // tap: music
+            #define AS28  &kp LG(E)            // tap: mail
+            #define AS29  &kp LG(C)            // tap: contacts
+
+            label = "aSTG";
+            bindings = <
+       AKY_ESC  &m_s_b1  &m_s_b2  &none     AS04      AS05                  &none  &kp K_VOL_DN    &kp K_MUTE  &kp K_VOL_UP   AS10   AS11
+          AS12  &m_s_b3  &m_s_b4  &none     AS16      AS17                  &none    &kp K_PREV      &kp K_PP    &kp K_NEXT   AS22   AS23
+          AS24  &m_s_b5  &m_s_b6  &none     AS28      AS29                  &none         &none    &kp K_STOP         &none  &none  &none
+                           &kp C_BRI_DN  KEY_SPC  &to_aBAS               &to_aAXN       AKY_RET  &kp C_BRI_UP
+            >;
+        };
+
