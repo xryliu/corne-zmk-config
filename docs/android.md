@@ -220,26 +220,29 @@ Dedicated to Bluetooth and media controls.
 
 ## Notifications
 
-![Notifications](/.github/images/examples/automate-notifications.gif)
-
 ### Prerequisites
 
 - Download and install [Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate)
 
 ### Flows
 
-- Import the `Corne Caps.flo` and `Corne Layer.flo` flows located inside `host/android/automate` folder
+- Import the [`🅰️ Corne Caps.flo`](<../host/android/automate/🅰️ Corne Caps.flo>) and [`🏷️ Corne Layer.flo`](<../host/android/automate/🏷️ Corne Layer.flo>) flows located inside `host/android/automate` folder
 - Add asked permissions
 - Under `Flow > Settings > Privileges` menu check the `collect all the text you type` option
 - Run `Corne Caps` and `Corne Layer`
 - Under `Settings > Safety > Run on system startup` select `Resume running flows on system startup (boot)`
 
+![Layers](/.github/images/examples/automate-layers.gif)
+![Caps](/.github/images/examples/automate-caps.gif)
+
 #### Premium
 
-- Import the `Corne Watch.flo` flow located inside `host/android/automate` folder
+- Import the [`👁️ Corne Watch.flo`](<../host/android/automate/👁️ Corne Watch.flo>) flow located inside `host/android/automate` folder
 - Under `Settings > Workarounds > Bluetooth tethering workaround` select `Privileged service`
 - Stop `Corne Caps` and `Corne Layer`
-- Run `Corne Watch` (it will watch the keyboard and start or stop `Corne Caps` and `Corne Layer`)
+- Run `Corne Watch` (it will watch if the keyboard is connected and start or stop `Corne Caps` and `Corne Layer`)
+
+![Watch Mode](/.github/images/examples/automate-watch.gif)
 
 ### Indicators
 
