@@ -1,5 +1,5 @@
 /* Home Row */
-#define HR_FLAVOR     "tap-preferred"
+#define HR_FLAVOR     "balanced"
 #define HR_TAPPING    220
 #define HR_QUICK_TAP  200
 #define HR_PRIOR_IDLE 125
