@@ -15,7 +15,7 @@
       bindings = <&mo_##OS##MO##_to_##OS##CB>, <&to_##OS##TO>;                \
   };
 
-#define HR_HOLD(OS, LYR, MOD, MP)                   \
+#define HR_HOLD(OS, LYR, MOD, MP, KP)               \
   hm_##OS##LYR##_##MOD: hold_hm_##OS##LYR##_##MOD { \
       compatible = "zmk,behavior-hold-tap";         \
       label=LABEL_STRINGIFY(hm_##OS##LYR##_##MOD);  \
@@ -24,4 +24,5 @@
       quick-tap-ms = <HR_QUICK_TAP>;                \
       flavor = HR_FLAVOR;                           \
       bindings = <&kp>, <&MP>;                      \
+      hold-trigger-key-positions = <KP>;            \
   };
