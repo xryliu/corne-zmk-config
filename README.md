@@ -12,6 +12,7 @@ This is a WIP layout based on Colemak DHm that includes Spanish accents, and com
 
 - Keyboard
   - [Windows](docs/windows.md)
+  - [macOS](docs/macos.md)
   - [Android](docs/android.md)
 - [Usage](#usage)
   - [Turn on/off](#turn-onoff)

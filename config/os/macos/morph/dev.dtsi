@@ -1,6 +1,6 @@
-//mp_wDEV_pound
+//mp_mDEV_pound
 MORPH_KA(
-    w,
+    m,
     DEV,
     pound,
     pound,
@@ -9,9 +9,9 @@ MORPH_KA(
     &kp LC(LS(SEMICOLON))  // alt:  °
 )
 
-//mp_wDEV_money
+//mp_mDEV_money
 MORPH_KA(
-    w,
+    m,
     DEV,
     money,
     money,
@@ -20,9 +20,9 @@ MORPH_KA(
     &kp LC(N5)  // alt:  €
 )
 
-//mp_wDEV_lb
+//mp_mDEV_lb
 MORPH_KA(
-    w,
+    m,
     DEV,
     lb,
     left_brackets,
@@ -31,9 +31,9 @@ MORPH_KA(
     &kp LC(LBKT)  // alt:  «
 )
 
-//mp_wDEV_rb
+//mp_mDEV_rb
 MORPH_KA(
-    w,
+    m,
     DEV,
     rb,
     right_brackets,
@@ -42,20 +42,20 @@ MORPH_KA(
     &kp LC(RBKT)  // alt:  »
 )
 
-// mp_wDEV_e
+// mp_mDEV_e
 MORPH_KA(
-    w,
+    m,
     DEV,
     e,
     equal,
     MOD_LALT,
     &kp EQUAL,  // tap:  =
-    &m_wd_a     // alt:  =>
+    &m_md_a     // alt:  =>
 )
 
-// mp_wDEV_qs
+// mp_mDEV_qs
 MORPH_KA(
-    w,
+    m,
     DEV,
     qs,
     question_symbol,
@@ -64,9 +64,9 @@ MORPH_KA(
     &kp LC(FSLH)   // alt:  ¿
 )
 
-// mp_wDEV_es
+// mp_mDEV_es
 MORPH_KA(
-    w,
+    m,
     DEV,
     es,
     exclamation_symbol,
@@ -75,12 +75,12 @@ MORPH_KA(
     &kp LC(N1)   // alt:  ¡
 )
 
-//mp_wDEV_ql
+//mp_mDEV_ql
 MORPH_KS(
-    w,
+    m,
     DEV,
     ql,
     question_logical,
-    &m_wd_oco,  // tap:    ?.
-    &m_wd_cto   // shift:  ?░:░
+    &m_md_oco,  // tap:    ?.
+    &m_md_cto   // shift:  ?░:░
 )

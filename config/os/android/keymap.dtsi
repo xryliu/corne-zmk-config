@@ -1,8 +1,8 @@
         android_base_layer {
             #define AB13  &hm_aBAS_LG  LCMD   0  //A
-            #define AB14  &hm LCTRL    R
-            #define AB15  &hm LALT     S
-            #define AB16  &hm LSHFT    T
+            #define AB14  &hm  LCTRL   R
+            #define AB15  &hm  LALT    S
+            #define AB16  &hm  LSHFT   T
 
             #define AB19  &hm_aBAS_RS  RSHFT  0  //N
             #define AB20  &hm_aBAS_RA  RALT   0  //E
@@ -26,24 +26,24 @@
         };
 
         android_dev_layer {
-            #define AD13  &hm_aDEV_LG  LCMD    0
+            #define AD13  &hm          LCMD    AMPS
             #define AD14  &hm          LCTRL   LBRC
             #define AD15  &hm          LALT    RBRC
             #define AD16  &hm_aDEV_LS  LSHFT   0
 
-            #define AD19  &hm_aDEV_RS  RSHFT   0
+            #define AD19  &hm          RSHFT   EXCL
             #define AD20  &hm          RALT    LBKT
             #define AD21  &hm          RCTRL   RBKT
-            #define AD22  &hm_aDEV_RG  RCMD    0
+            #define AD22  &hm          RCMD    PIPE
 
             #define AD38  &mo_aAXNaDEV_to_aBAS  0  0
             #define AD39  &mo_aAXNaDEV_to_aAXN  0  0
 
             label = "aDEV";
             bindings = <
-    AKY_ESC     &kp AT &kp POUND  &kp DLLR  &mp_aDEV_p   &m_ai_d               &m_ai_t   &mp_aDEV_m    &kp UNDER    &kp PRCNT      &m_ai_c   NAV_DEL
+    AKY_ESC     &kp AT &kp POUND  &kp DLLR    &kp PLUS   &m_ai_d               &m_ai_t    &kp MINUS    &kp UNDER    &kp PRCNT      &m_ai_c   NAV_DEL
      &mp_bc       AD13      AD14      AD15        AD16   &m_ai_s               &m_ai_g         AD19         AD20         AD21         AD22  NAV_BSPC
-    AKY_TAB  &kp LC(R)  &kp LPAR  &kp RPAR  &mp_aDEV_a  &kp BSLH            &mp_aDEV_s  &mp_aDEV_qs  &mp_aDEV_lt  &mp_aDEV_gt  &mp_aDEV_ql     &none
+    AKY_TAB  &kp LC(R)  &kp LPAR  &kp RPAR   &kp ASTRK  &kp BSLH            &mp_aDEV_s    &kp QMARK       &kp LT       &kp GT  &mp_aDEV_ql     &none
                                     &mp_cs     KEY_SPC      AD38                  AD39      AKY_RET       &mp_dc
             >;
         };
@@ -67,30 +67,30 @@
             #define AA38  &to_aBAS
             #define AA39  &mo_aFNKaAXN_to_aFNK    0 0
 
-            #define KEY_UNDO   &kp LC(Z)       // tap: undo
-            #define KEY_REDO   &kp LC(LS(Z))   // tap: redo
-            #define KEY_CUT    &kp LC(X)       // tap: cut
-            #define KEY_COPY   &kp LC(C)       // tap: copy
-            #define KEY_PASTE  &kp LC(V)       // tap: paste
+            #define AKY_UNDO   &kp LC(Z)       // tap: undo
+            #define AKY_REDO   &kp LC(LS(Z))   // tap: redo
+            #define AKY_CUT    &kp LC(X)       // tap: cut
+            #define AKY_COPY   &kp LC(C)       // tap: copy
+            #define AKY_PASTE  &kp LC(V)       // tap: paste
 
             label = "aAXN";
             bindings = <
     AKY_ESC      AA01     AA02    &kp UP       AA04      AA05            &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY   NAV_DEL
      &mp_bc      AA13     AA14      AA15       AA16      AA17                 &kp N0     AA19    AA20    AA21             AA22  NAV_BSPC
-    AKY_TAB  KEY_UNDO  KEY_CUT  KEY_COPY  KEY_PASTE  KEY_REDO                &mp_k_m   &kp N1  &kp N2  &kp N3    &kp KP_DIVIDE     &none
+    AKY_TAB  AKY_UNDO  AKY_CUT  AKY_COPY  AKY_PASTE  AKY_REDO                &mp_k_m   &kp N1  &kp N2  &kp N3    &kp KP_DIVIDE     &none
                                   &mp_cs    KEY_SPC      AA38                   AA39  AKY_RET  &mp_dc
             >;
         };
 
         android_functions_layer {
-            #define AK13  &hm LCMD   F5
-            #define AK14  &hm LCTRL  F6
-            #define AK15  &hm LALT   F7
-            #define AK16  &hm LSHFT  F8
+            #define AK13  &hm  LCMD   F5
+            #define AK14  &hm  LCTRL  F6
+            #define AK15  &hm  LALT   F7
+            #define AK16  &hm  LSHFT  F8
 
-            #define AK19  &hm RSHFT  HOME
-            #define AK20  &hm RALT   PG_DN
-            #define AK21  &hm RCTRL  END
+            #define AK19  &hm  RSHFT  HOME
+            #define AK20  &hm  RALT   PG_DN
+            #define AK21  &hm  RCTRL  END
             #define AK22  &kp RCMD
 
             #define AK38  &to_aBAS

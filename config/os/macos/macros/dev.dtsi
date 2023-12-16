@@ -1,7 +1,7 @@
-// action: =>
-m_wd_a: macro_windows_dev_arrow {
+// action:  =>
+m_md_a: macro_mac_dev_arrow {
     compatible = "zmk,behavior-macro";
-    label = "m_wd_a";
+    label = "m_md_a";
     #binding-cells = <0>;
     wait-ms = <MC_WAIT_START>;
     bindings
@@ -10,10 +10,10 @@ m_wd_a: macro_windows_dev_arrow {
         , <&kp EQUAL &kp GT>;
 };
 
-// action: ?░:░
-m_wd_cto: macro_windows_conditional_ternary_operator {
+// action:  ?░:░
+m_md_cto: macro_mac_conditional_ternary_operator {
     compatible = "zmk,behavior-macro";
-    label = "m_wd_cto";
+    label = "m_md_cto";
     #binding-cells = <0>;
     bindings
         = <&none>
@@ -22,10 +22,10 @@ m_wd_cto: macro_windows_conditional_ternary_operator {
         , <&kp LEFT &kp LEFT &kp LEFT>;
 };
 
-// action: ?.
-m_wd_oco: macro_windows_optional_chaining_operator {
+// action:  ?.
+m_md_oco: macro_mac_optional_chaining_operator {
     compatible = "zmk,behavior-macro";
-    label = "m_wd_oco";
+    label = "m_md_oco";
     #binding-cells = <0>;
     bindings
         = <&kp QMARK &kp DOT>;

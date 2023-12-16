@@ -1,112 +1,24 @@
-// mp_aDEV_a
-MORPH_KSA(
-    a,
-    DEV,
-    a,
-    asterisk,
-    MOD_LALT|MOD_RALT,
-    &kp ASTRK,  // tap:    *
-    &m_ad_ma,   // shift:  *=
-    &m_ad_eo    // alt:    **
-)
-
-// mp_aDEV_p
-MORPH_KSA(
-    a,
-    DEV,
-    p,
-    plus,
-    MOD_LALT|MOD_RALT,
-    &kp PLUS,  // tap:    +
-    &m_ad_as,  // shift:  +=
-    &m_ad_io   // alt:    ++
-)
-
-// mp_aDEV_m
-MORPH_KSA(
-    a,
-    DEV,
-    m,
-    minus,
-    MOD_LALT|MOD_RALT,
-    &kp MINUS,  // tap:    -
-    &m_ad_sa,   // shift:  -=
-    &m_ad_do    // alt:    --
-)
-
 // mp_aDEV_e
-MORPH_KSA(
+MORPH_KA(
     a,
     DEV,
     e,
     equal,
     MOD_LALT|MOD_RALT,
-    &kp EQUAL,  // tap:    =
-    &m_ad_se,   // shift:  ===
-    &m_ad_a     // alt:    =>
+    &kp EQUAL,  // tap:  =
+    &m_ad_a     // alt:  =>
 )
 
 // mp_aDEV_s
-MORPH_KAS(
+MORPH_KA(
     a,
     DEV,
     s,
     slash,
     MOD_LALT|MOD_RALT,
-    &kp FSLH,   // tap:    /
-    &m_ad_bc,   // alt:    /* block comment */
-    &m_ad_da    // shift:  /=
-)               // ctrl:   // line comment
-
-// mp_aDEV_lao
-MORPH_KSA(
-    a,
-    DEV,
-    lao,
-    logical_and_operator,
-    MOD_LALT|MOD_RALT,
-    &kp AMPS,   // tap:    &
-    &m_ad_laa,  // shift:  &&=
-    &m_ad_la    // alt:    &&
-)
-
-// mp_aDEV_loo
-MORPH_KSA(
-    a,
-    DEV,
-    loo,
-    logical_or_operator,
-    MOD_LALT|MOD_RALT,
-    &kp PIPE,   // tap:    |
-    &m_ad_loa,  // shift:  ||=
-    &m_ad_lo    // alt:    ||
-)
-
-// mp_aDEV_qs
-MORPH_KASAS(
-    a,
-    DEV,
-    qs,
-    question_symbol,
-    MOD_LALT|MOD_RALT,
-    &kp QMARK,     // tap:        ?
-    &none,         // alt:
-    &m_ad_nca,     // shift:      ??=
-    &m_ad_nco      // alt+shift:  ??
-)
-
-// mp_aDEV_es
-MORPH_KASAS(
-    a,
-    DEV,
-    es,
-    exclamation_symbol,
-    MOD_LALT|MOD_RALT,
-    &kp EXCL,    // tap:        !
-    &none,       // alt:
-    &m_ad_si,    // shift:      !==
-    &m_ad_dno    // alt+shift:  !!
-)
+    &kp FSLH,   // tap:   /
+    &m_ad_bc    // alt:   /* block comment */
+)               // ctrl:  // line comment
 
 //mp_aDEV_ql
 MORPH_KS(
@@ -116,28 +28,4 @@ MORPH_KS(
     question_logical,
     &m_ad_oco,  // tap:    ?.
     &m_ad_cto   // shift:  ?░:░
-)
-
-// mp_aDEV_lt
-MORPH_KAS(
-    a,
-    DEV,
-    lt,
-    lower_than,
-    MOD_LALT|MOD_RALT,
-    &kp LT,      // tap:    <
-    &m_ad_hvt,   // alt:    <░/> /* html void tag */
-    &m_ad_ltoet  // shift:  <=
-)
-
-// mp_aDEV_gt
-MORPH_KAS(
-    a,
-    DEV,
-    gt,
-    greater_than,
-    MOD_LALT|MOD_RALT,
-    &kp GT,      // tap:    >
-    &m_ad_hct,   // alt:    </░> /* html close tag */
-    &m_ad_gtoet  // shift:  >=
 )

@@ -1,6 +1,6 @@
 # Windows
 
-This is a WIP layout based on Colemak DHm for using on Windows (with **en-US International** layout on host) that includes Spanish accents, and complemented with easy access to development symbols and JS/TS shortcuts.
+This is a WIP layout based on Colemak DHm for using on macOS (with **en-US International** layout on host) that includes Spanish accents, and complemented with easy access to development symbols and JS/TS shortcuts.
 
 ![US International](/.github/images/layout/US-International.png)
 
@@ -14,8 +14,6 @@ This is a WIP layout based on Colemak DHm for using on Windows (with **en-US Int
   - [DEV](dev)
   - [AXN](axn)
   - [STG](stg)
-- [Notifications](#notifications)
-- [Battery Indicators](#battery-indicators)
 
 ---
 
@@ -63,7 +61,7 @@ Icons used to describe some modifiers and actions
 
 Letters, accents for Spanish language and quick shortcuts for most used symbols to "avoid" changing layers.
 
-![BAS Layer](/.github/images/layers/windows/BAS.png)
+![BAS Layer](/.github/images/layers/macos/BAS.png)
 
 #### Spanish
 
@@ -90,7 +88,7 @@ Letters, accents for Spanish language and quick shortcuts for most used symbols 
 
 Symbols and dev shortcuts for JS/TS.
 
-![DEV Layer](/.github/images/layers/windows/DEV.png)
+![DEV Layer](/.github/images/layers/macos/DEV.png)
 
 #### Symbols
 
@@ -130,7 +128,7 @@ Symbols and dev shortcuts for JS/TS.
 
 Quick navigation actions and numbers. Function keys works independently as a sub-layer to avoid shortcuts collisions.
 
-![AXN Layer](/.github/images/layers/windows/AXN.png)
+![AXN Layer](/.github/images/layers/macos/AXN.png)
 
 #### Navigation
 
@@ -174,7 +172,7 @@ Quick navigation actions and numbers. Function keys works independently as a sub
 
 Dedicated to Bluetooth and media controls.
 
-![STG Layer](/.github/images/layers/windows/STG.png)
+![STG Layer](/.github/images/layers/macos/STG.png)
 
 #### Actions
 
@@ -197,8 +195,8 @@ Dedicated to Bluetooth and media controls.
 | <kbd>⎚</kbd>   | Fancy Zones              |
 | <kbd>▤</kbd>   | Task Manager             |
 | <kbd>ⓘ</kbd>   | System Info             |
-| <kbd>⛨</kbd>   | Windows Security        |
-| <kbd>⎈</kbd>   | Windows Settings         |
+| <kbd>⛨</kbd>   | Security                |
+| <kbd>⎈</kbd>   | Settings                 |
 
 #### Media
 
@@ -214,46 +212,5 @@ Dedicated to Bluetooth and media controls.
 | <kbd>⏭️</kbd> | Next         |
 | <kbd>⏩</kbd> | Fast Forward |
 | <kbd>🔀</kbd> | Shuffle      |
-
-⇧ [Back to menu](#menu)
-
----
-
-## Notifications
-
-![Notifications](/.github/images/examples/ahk-notifications.gif)
-
-### Prerequisites
-
-- Download and install [AutoHotKey](https://www.autohotkey.com/) v2
-
-### Startup
-
-To automatically run the scripts at startup:
-
-- Create shortcuts to `startup.ahk` and `caps.ahk` scripts located inside `host/windows/ahk` folder
-- Press <kbd>❖</kbd>+<kbd>r</kbd> and run this command `shell:startup`
-- Move the shortcut to this folder
-
-### Indicators
-
-Screencast mode notifications:
-
-- CapsLock (On/Off)
-- CapsWord (On/Off)
-- Layer changing
-- Momentary layer activation and deactivation
-- Tray icons with current layer
-- Current layer image as helper (close with <kbd>ESC</kbd>)
-
-⇧ [Back to menu](#menu)
-
----
-
-## Battery Indicators
-
-![Battery](/.github/images/examples/battery.png)
-
-Needs [ZMK PR Battery BLE](https://github.com/zmkfirmware/zmk/pull/1243) and [ZMK Split Battery](https://github.com/Fukkei/zmk-split-battery)
 
 ⇧ [Back to menu](#menu)
