@@ -61,7 +61,7 @@ MORPH_KA(
     question_symbol,
     MOD_LALT,
     &kp QMARK,     // tap:  ?
-    &kp LC(FSLH),  // alt:  ¿
+    &kp LC(FSLH)   // alt:  ¿
 )
 
 // mp_wDEV_es
@@ -72,7 +72,7 @@ MORPH_KA(
     exclamation_symbol,
     MOD_LALT,
     &kp EXCL,    // tap:  !
-    &kp LC(N1),  // alt:  ¡
+    &kp LC(N1)   // alt:  ¡
 )
 
 //mp_wDEV_ql
