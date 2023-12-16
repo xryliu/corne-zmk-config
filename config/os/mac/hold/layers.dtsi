@@ -7,9 +7,9 @@ to_mBAS_kp: behavior_to_mBAS_kp {
     bindings = <&to_mBAS>, <&kp>;
 };
 
-MOTO_HOLD(w, AXN, BAS, FNK) //mo_mAXNwBAS_to_mFNK
-MOTO_HOLD(w, AXN, BAS, AXN) //mo_mAXNwBAS_to_mAXN
-MOTO_HOLD(w, DEV, BAS, DEV) //mo_mDEVwBAS_to_mDEV
-MOTO_HOLD(w, AXN, DEV, BAS) //mo_mAXNwDEV_to_mBAS
-MOTO_HOLD(w, AXN, DEV, AXN) //mo_mAXNwDEV_to_mAXN
-MOTO_HOLD(w, FNK, AXN, FNK) //mo_mFNKwAXN_to_mFNK
+MOTO_HOLD(m, AXN, BAS, FNK) //mo_mAXNwBAS_to_mFNK
+MOTO_HOLD(m, AXN, BAS, AXN) //mo_mAXNwBAS_to_mAXN
+MOTO_HOLD(m, DEV, BAS, DEV) //mo_mDEVwBAS_to_mDEV
+MOTO_HOLD(m, AXN, DEV, BAS) //mo_mAXNwDEV_to_mBAS
+MOTO_HOLD(m, AXN, DEV, AXN) //mo_mAXNwDEV_to_mAXN
+MOTO_HOLD(m, FNK, AXN, FNK) //mo_mFNKwAXN_to_mFNK
