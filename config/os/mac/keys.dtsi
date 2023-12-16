@@ -1,0 +1,3 @@
+/* Shared Keys */
+#define MKY_ESC  &to_mBAS_kp  0      ESC  // tap: esc    | long-tap: BAS layer
+#define MKY_TAB  &mt          RIGHT  TAB  // tap: tab    | long-tap: right (terminal autocompletion)
