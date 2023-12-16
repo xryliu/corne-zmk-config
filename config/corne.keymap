@@ -77,7 +77,6 @@
         #include "os/android/morph/dev.dtsi"
         #include "os/android/hold/layers.dtsi"
         #include "os/android/hold/base.dtsi"
-        #include "os/android/hold/dev.dtsi"
     };
 };
 

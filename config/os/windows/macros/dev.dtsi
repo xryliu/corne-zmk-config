@@ -1,15 +1,3 @@
-// action: =>
-m_wd_a: macro_windows_dev_arrow {
-    compatible = "zmk,behavior-macro";
-    label = "m_wd_a";
-    #binding-cells = <0>;
-    wait-ms = <MC_WAIT_START>;
-    bindings
-        = <&none &kp LALT> /* ALT fix for VSCode */
-        , <&macro_wait_time MC_WAIT>
-        , <&kp EQUAL &kp GT>;
-};
-
 // action: ?░:░
 m_wd_cto: macro_windows_conditional_ternary_operator {
     compatible = "zmk,behavior-macro";

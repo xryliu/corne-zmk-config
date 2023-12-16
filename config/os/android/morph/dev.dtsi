@@ -1,14 +1,3 @@
-// mp_aDEV_e
-MORPH_KA(
-    a,
-    DEV,
-    e,
-    equal,
-    MOD_LALT|MOD_RALT,
-    &kp EQUAL,  // tap:  =
-    &m_ad_a     // alt:  =>
-)
-
 // mp_aDEV_s
 MORPH_KA(
     a,
