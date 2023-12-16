@@ -26,24 +26,24 @@
         };
 
         android_dev_layer {
-            #define AD13  &hm_aDEV_LG  LCMD    0
+            #define AD13  &hm          LCMD    AMPS
             #define AD14  &hm          LCTRL   LBRC
             #define AD15  &hm          LALT    RBRC
             #define AD16  &hm_aDEV_LS  LSHFT   0
 
-            #define AD19  &hm_aDEV_RS  RSHFT   0
+            #define AD19  &hm          RSHFT   EXCL
             #define AD20  &hm          RALT    LBKT
             #define AD21  &hm          RCTRL   RBKT
-            #define AD22  &hm_aDEV_RG  RCMD    0
+            #define AD22  &hm          RCMD    PIPE
 
             #define AD38  &mo_aAXNaDEV_to_aBAS  0  0
             #define AD39  &mo_aAXNaDEV_to_aAXN  0  0
 
             label = "aDEV";
             bindings = <
-    AKY_ESC     &kp AT &kp POUND  &kp DLLR  &mp_aDEV_p   &m_ai_d               &m_ai_t   &mp_aDEV_m    &kp UNDER    &kp PRCNT      &m_ai_c   NAV_DEL
+    AKY_ESC     &kp AT &kp POUND  &kp DLLR    &kp PLUS   &m_ai_d               &m_ai_t    &kp MINUS    &kp UNDER    &kp PRCNT      &m_ai_c   NAV_DEL
      &mp_bc       AD13      AD14      AD15        AD16   &m_ai_s               &m_ai_g         AD19         AD20         AD21         AD22  NAV_BSPC
-    AKY_TAB  &kp LC(R)  &kp LPAR  &kp RPAR  &mp_aDEV_a  &kp BSLH            &mp_aDEV_s  &mp_aDEV_qs  &mp_aDEV_lt  &mp_aDEV_gt  &mp_aDEV_ql     &none
+    AKY_TAB  &kp LC(R)  &kp LPAR  &kp RPAR   &kp ASTRK  &kp BSLH            &mp_aDEV_s    &kp QMARK       &kp LT       &kp GT  &mp_aDEV_ql     &none
                                     &mp_cs     KEY_SPC      AD38                  AD39      AKY_RET       &mp_dc
             >;
         };

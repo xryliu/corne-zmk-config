@@ -26,7 +26,7 @@
         };
 
         windows_dev_layer {
-            #define WD13  &hm_wDEV_LG  LCMD    0
+            #define WD13  &hm          LCMD    AMPS
             #define WD14  &hm          LCTRL   LBRC
             #define WD15  &hm          LALT    RBRC
             #define WD16  &hm_wDEV_LS  LSHFT   0
@@ -34,16 +34,16 @@
             #define WD19  &hm_wDEV_RS  RSHFT   0
             #define WD20  &hm_wDEV_RA  LALT    0
             #define WD21  &hm_wDEV_RC  RCTRL   0
-            #define WD22  &hm_wDEV_RG  RCMD    0
+            #define WD22  &hm          RCMD    PIPE
 
             #define WD38  &mo_wAXNwDEV_to_wBAS  0  0
             #define WD39  &mo_wAXNwDEV_to_wAXN  0  0
 
             label = "wDEV";
             bindings = <
-    WKY_ESC     &kp AT  &mp_wDEV_pound  &mp_wDEV_money  &mp_wDEV_p   &m_wi_d               &m_wi_t   &mp_wDEV_m     &kp UNDER    &kp PRCNT      &m_wi_c   NAV_DEL
+    WKY_ESC     &kp AT  &mp_wDEV_pound  &mp_wDEV_money    &kp PLUS   &m_wi_d               &m_wi_t    &kp MINUS     &kp UNDER    &kp PRCNT      &m_wi_c   NAV_DEL
      &mp_bc       WD13            WD14            WD15        WD16   &m_wi_s               &m_wi_g         WD19          WD20         WD21         WD22  NAV_BSPC
-    WKY_TAB  &kp LC(R)        &kp LPAR        &kp RPAR  &mp_wDEV_a  &kp BSLH            &mp_wDEV_s  &mp_wDEV_qs   &mp_wDEV_lt  &mp_wDEV_gt  &mp_wDEV_ql   &kp F12
+    WKY_TAB  &kp LC(R)        &kp LPAR        &kp RPAR   &kp ASTRK  &kp BSLH              &kp FSLH  &mp_wDEV_qs        &kp LT       &kp GT  &mp_wDEV_ql   &kp F12
                                                 &mp_cs     KEY_SPC      WD38                  WD39      WKY_RET        &mp_dc
             >;
         };

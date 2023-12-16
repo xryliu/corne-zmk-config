@@ -1,4 +1,1 @@
-HR_HOLD(a, DEV, LG, mp_aDEV_lao)  //hm_aDEV_LG
 HR_HOLD(a, DEV, LS, mp_aDEV_e)    //hm_aDEV_LS
-HR_HOLD(a, DEV, RS, mp_aDEV_es)   //hm_aDEV_RS
-HR_HOLD(a, DEV, RG, mp_aDEV_loo)  //hm_aDEV_RG

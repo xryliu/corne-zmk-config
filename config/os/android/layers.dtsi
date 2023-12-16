@@ -1,16 +1,9 @@
 /* android */
-#define aBAS  5
-#define aDEV  6
-#define aAXN  7
-#define aFNK  8
-#define aSTG  9
-
-/* android */
-// #define aBAS 10
-// #define aDEV 11
-// #define aAXN 12
-// #define aFNK 13
-// #define aSTG 14
+#define aBAS 10
+#define aDEV 11
+#define aAXN 12
+#define aFNK 13
+#define aSTG 14
 
 
 /* Helpers */
