@@ -93,12 +93,6 @@ Symbols and dev shortcuts for JS/TS.
 
 ![DEV Layer](/.github/images/layers/android/DEV.png)
 
-#### JS/TS
-
-| Label                                                                                                                       | Shortcut                     | Action |
-| :-------------------------------------------------------------------------------------------------------------------------: | ---------------------------: | ----- |
-| <kbd>[=>](https://developer.mozilla.org/en-US/docs/android/eb/JavaScript/Reference/Functions/Arrow_functions)</kbd>                |  <kbd>⌥</kbd>+<kbd>=</kbd>  | Arrow Function |
-
 #### Browser DevTools
 
 | Label        | Shortcut                     | Action                      |

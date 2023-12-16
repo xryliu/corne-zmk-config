@@ -103,12 +103,6 @@ Symbols and dev shortcuts for JS/TS.
 | <kbd>¡</kbd>    | <kbd>⌥</kbd>+<kbd>!</kbd>                |
 | <kbd>¿</kbd>    | <kbd>⌥</kbd>+<kbd>?</kbd>                |
 
-#### JS/TS
-
-| Label                                                                                                                       | Shortcut                     | Action |
-| :-------------------------------------------------------------------------------------------------------------------------: | ---------------------------: | ----- |
-| <kbd>[=>](https://developer.mozilla.org/en-US/docs/Windows/eb/JavaScript/Reference/Functions/Arrow_functions)</kbd>                |  <kbd>⌥</kbd>+<kbd>=</kbd>  | Arrow Function |
-
 #### Browser DevTools
 
 | Label        | Shortcut                     | Action                      |

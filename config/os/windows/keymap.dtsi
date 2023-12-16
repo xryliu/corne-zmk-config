@@ -29,7 +29,7 @@
             #define WD13  &hm          LCMD    AMPS
             #define WD14  &hm          LCTRL   LBRC
             #define WD15  &hm          LALT    RBRC
-            #define WD16  &hm_wDEV_LS  LSHFT   0
+            #define WD16  &hm          LSHFT   EQUAL
 
             #define WD19  &hm_wDEV_RS  RSHFT   0
             #define WD20  &hm_wDEV_RA  LALT    0

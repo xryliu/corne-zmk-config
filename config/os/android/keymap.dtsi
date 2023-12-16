@@ -29,7 +29,7 @@
             #define AD13  &hm          LCMD    AMPS
             #define AD14  &hm          LCTRL   LBRC
             #define AD15  &hm          LALT    RBRC
-            #define AD16  &hm_aDEV_LS  LSHFT   0
+            #define AD16  &hm          LSHFT   EQUAL
 
             #define AD19  &hm          RSHFT   EXCL
             #define AD20  &hm          RALT    LBKT

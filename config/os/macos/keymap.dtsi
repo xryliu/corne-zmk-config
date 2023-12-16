@@ -29,7 +29,7 @@
             #define MD13  &hm          LCMD    AMPS
             #define MD14  &hm          LCTRL   LBRC
             #define MD15  &hm          LALT    RBRC
-            #define MD16  &hm_mDEV_LS  LSHFT   0
+            #define MD16  &hm          LSHFT   EQUAL
 
             #define MD19  &hm_mDEV_RS  RSHFT   0
             #define MD20  &hm_mDEV_RA  LALT    0

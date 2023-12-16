@@ -42,17 +42,6 @@ MORPH_KA(
     &kp LC(RBKT)  // alt:  »
 )
 
-// mp_mDEV_e
-MORPH_KA(
-    m,
-    DEV,
-    e,
-    equal,
-    MOD_LALT,
-    &kp EQUAL,  // tap:  =
-    &m_md_a     // alt:  =>
-)
-
 // mp_mDEV_qs
 MORPH_KA(
     m,
