@@ -61,7 +61,7 @@ Icons used to describe some modifiers and actions
 
 Letters, accents for Spanish language and quick shortcuts for most used symbols to "avoid" changing layers.
 
-![BAS Layer](/.github/images/layers/mac/BAS.png)
+![BAS Layer](/.github/images/layers/macos/BAS.png)
 
 #### Spanish
 
@@ -88,7 +88,7 @@ Letters, accents for Spanish language and quick shortcuts for most used symbols 
 
 Symbols and dev shortcuts for JS/TS.
 
-![DEV Layer](/.github/images/layers/mac/DEV.png)
+![DEV Layer](/.github/images/layers/macos/DEV.png)
 
 #### Symbols
 
@@ -128,7 +128,7 @@ Symbols and dev shortcuts for JS/TS.
 
 Quick navigation actions and numbers. Function keys works independently as a sub-layer to avoid shortcuts collisions.
 
-![AXN Layer](/.github/images/layers/mac/AXN.png)
+![AXN Layer](/.github/images/layers/macos/AXN.png)
 
 #### Navigation
 
@@ -172,7 +172,7 @@ Quick navigation actions and numbers. Function keys works independently as a sub
 
 Dedicated to Bluetooth and media controls.
 
-![STG Layer](/.github/images/layers/mac/STG.png)
+![STG Layer](/.github/images/layers/macos/STG.png)
 
 #### Actions
 

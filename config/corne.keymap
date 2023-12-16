@@ -12,13 +12,13 @@
 #include "os/all/times.dtsi"
 #include "os/all/general.dtsi"
 #include "os/windows/layers.dtsi"
-#include "os/mac/layers.dtsi"
+#include "os/macos/layers.dtsi"
 #include "os/android/layers.dtsi"
 
 /* Keys */
 #include "os/all/keys.dtsi"
 #include "os/windows/keys.dtsi"
-#include "os/mac/keys.dtsi"
+#include "os/macos/keys.dtsi"
 #include "os/android/keys.dtsi"
 
 /* Helpers */
@@ -36,9 +36,9 @@
         #include "os/windows/macros/int.dtsi"
         #include "os/windows/macros/dev.dtsi"
 
-        #include "os/mac/macros/layers.dtsi"
-        #include "os/mac/macros/int.dtsi"
-        #include "os/mac/macros/dev.dtsi"
+        #include "os/macos/macros/layers.dtsi"
+        #include "os/macos/macros/int.dtsi"
+        #include "os/macos/macros/dev.dtsi"
 
         #include "os/android/macros/layers.dtsi"
         #include "os/android/macros/int.dtsi"
@@ -62,13 +62,13 @@
         #include "os/windows/hold/base.dtsi"
         #include "os/windows/hold/dev.dtsi"
 
-        #include "os/mac/morph/layers.dtsi"
-        #include "os/mac/morph/base.dtsi"
-        #include "os/mac/morph/int.dtsi"
-        #include "os/mac/morph/actions.dtsi"
-        #include "os/mac/hold/layers.dtsi"
-        #include "os/mac/hold/base.dtsi"
-        #include "os/mac/hold/dev.dtsi"
+        #include "os/macos/morph/layers.dtsi"
+        #include "os/macos/morph/base.dtsi"
+        #include "os/macos/morph/int.dtsi"
+        #include "os/macos/morph/actions.dtsi"
+        #include "os/macos/hold/layers.dtsi"
+        #include "os/macos/hold/base.dtsi"
+        #include "os/macos/hold/dev.dtsi"
 
         #include "os/android/morph/layers.dtsi"
         #include "os/android/morph/base.dtsi"
@@ -87,8 +87,8 @@
         #include "os/windows/combos/base.dtsi"
         #include "os/windows/combos/help.dtsi"
 
-        #include "os/mac/combos/base.dtsi"
-        #include "os/mac/combos/help.dtsi"
+        #include "os/macos/combos/base.dtsi"
+        #include "os/macos/combos/help.dtsi"
 
         #include "os/android/combos/base.dtsi"
     };
@@ -99,7 +99,7 @@
         compatible = "zmk,keymap";
 
         #include "os/windows/keymap.dtsi"
-        #include "os/mac/keymap.dtsi"
+        #include "os/macos/keymap.dtsi"
         #include "os/android/keymap.dtsi"
     };
 };
