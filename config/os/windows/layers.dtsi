@@ -6,9 +6,9 @@
 #define wSTG  4
 
 /* Helpers */
-#define H_wCWR  LG(LS(F18))
-#define F_wBAS  LG(LS(F19))
-#define F_wDEV  LG(LS(F20))
-#define F_wAXN  LG(LS(F21))
-#define F_wFNK  LG(LS(F22))
-#define F_wSTG  LG(LS(F23))
+#define H_wCWR  LS(F18)
+#define F_wBAS  LS(F19)
+#define F_wDEV  LS(F20)
+#define F_wAXN  LS(F21)
+#define F_wFNK  LS(F22)
+#define F_wSTG  LS(F23)
