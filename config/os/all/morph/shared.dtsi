@@ -13,6 +13,7 @@ mp_bc: morph_backspace_caps {
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
     bindings = <NAV_BSPC>, <&kp CLCK>;
+    keep-mods = <(MOD_LSFT)>;
 };
 
 // tap:     ,
