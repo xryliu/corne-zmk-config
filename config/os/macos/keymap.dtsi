@@ -1,13 +1,13 @@
         mac_base_layer {
-            #define MB13  &hm_mBAS_LC  LCMD  0  //A
-            #define MB14  &hm  LCTRL   R
-            #define MB15  &hm  LALT    S
-            #define MB16  &hm  LSHFT   T
+            #define MB13  &hm_mBAS_LC  LCTRL  0  //A
+            #define MB14  &hm          LCMD   R
+            #define MB15  &hm          LALT   S
+            #define MB16  &hm          LSHFT  T
 
             #define MB19  &hm_mBAS_RS  RSHFT  0  //N
             #define MB20  &hm_mBAS_RA  LALT   0  //E
-            #define MB21  &hm_mBAS_RC  RCTRL  0  //I
-            #define MB22  &hm_mBAS_RG  RCMD   0  //O
+            #define MB21  &hm_mBAS_RC  RCMD   0  //I
+            #define MB22  &hm_mBAS_RG  RCTRL  0  //O
 
             #define MB35  &mp_m_stg
 
@@ -26,15 +26,15 @@
         };
 
         mac_dev_layer {
-            #define MD13  &hm          LCMD    AMPS
-            #define MD14  &hm          LCTRL   LBRC
+            #define MD13  &hm          LCTRL   AMPS
+            #define MD14  &hm          LCMD    LBRC
             #define MD15  &hm          LALT    RBRC
             #define MD16  &hm          LSHFT   EQUAL
 
             #define MD19  &hm_mDEV_RS  RSHFT   0
             #define MD20  &hm_mDEV_RA  LALT    0
-            #define MD21  &hm_mDEV_RC  RCTRL   0
-            #define MD22  &hm          RCMD    PIPE
+            #define MD21  &hm_mDEV_RC  RCMD    0
+            #define MD22  &hm          RCTRL   PIPE
 
             #define MD38  &mo_mAXNmDEV_to_mBAS  0  0
             #define MD39  &mo_mAXNmDEV_to_mAXN  0  0
@@ -50,28 +50,28 @@
 
         mac_act_num_layer {
             #define MA01  &kp  LA(LS(RIGHT))          // tap: expand selection
-            #define MA05  &kp  LC(F)                  // tap: find
-            #define MA13  &hm  LCMD   LA(LS(LEFT))    // tap: shrink selection
-            #define MA14  &hm  LCTRL  LEFT
+            #define MA05  &kp  LG(F)                  // tap: find
+            #define MA13  &hm  LCTRL  LA(LS(LEFT))    // tap: shrink selection
+            #define MA14  &hm  LCMD   LEFT
             #define MA15  &hm  LALT   DOWN
             #define MA16  &hm  LSHFT  RIGHT
             #define MA17  &kp  LC(H)                  // tap: replace
 
             #define MA19  &hm  LSHFT  N4
             #define MA20  &hm  LALT   N5
-            #define MA21  &hm  LCTRL  N6
-            #define MA22  &hm  LCMD   EQUAL
+            #define MA21  &hm  LCMD   N6
+            #define MA22  &hm  LCTRL  EQUAL
 
             #define MA35  &hm  LG(LC(F4))  LG(LC(D))  // tap: create | hold: close (virtual desktop)
 
             #define MA38  &to_mBAS
             #define MA39  &mo_mFNKmAXN_to_mFNK    0 0
 
-            #define MKY_UNDO   &kp RC(Z)       // tap: undo
-            #define MKY_REDO   &kp RC(Y)       // tap: redo
-            #define MKY_CUT    &kp RC(X)       // tap: cut
-            #define MKY_COPY   &kp RC(C)       // tap: copy
-            #define MKY_PASTE  &kp RC(V)       // tap: paste     | shift: paste without format
+            #define MKY_UNDO   &kp RG(Z)       // tap: undo
+            #define MKY_REDO   &kp RS(RG(Z))   // tap: redo
+            #define MKY_CUT    &kp RG(X)       // tap: cut
+            #define MKY_COPY   &kp RG(C)       // tap: copy
+            #define MKY_PASTE  &kp RG(V)       // tap: paste     | shift: paste without format
 
             label = "mAXN";
             bindings = <
