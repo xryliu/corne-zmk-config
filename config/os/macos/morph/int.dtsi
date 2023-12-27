@@ -1,6 +1,5 @@
 mp_mi_a: morph_mac_a {
     compatible = "zmk,behavior-mod-morph";
-    label = "a";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp A>, <&kp LC(A)>;
@@ -9,7 +8,6 @@ mp_mi_a: morph_mac_a {
 
 mp_mi_e: morph_mac_e {
     compatible = "zmk,behavior-mod-morph";
-    label = "e";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp E>, <&kp LC(E)>;
@@ -18,7 +16,6 @@ mp_mi_e: morph_mac_e {
 
 mp_mi_i: morph_mac_i {
     compatible = "zmk,behavior-mod-morph";
-    label = "i";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp I>, <&kp LC(I)>;
@@ -27,7 +24,6 @@ mp_mi_i: morph_mac_i {
 
 mp_mi_o: morph_mac_o {
     compatible = "zmk,behavior-mod-morph";
-    label = "o";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp O>, <&kp LC(O)>;
@@ -36,7 +32,6 @@ mp_mi_o: morph_mac_o {
 
 mp_mi_u: morph_mac_u {
     compatible = "zmk,behavior-mod-morph";
-    label = "u";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp U>, <&kp LC(U)>;
@@ -45,7 +40,6 @@ mp_mi_u: morph_mac_u {
 
 mp_mi_n: morph_mac_n {
     compatible = "zmk,behavior-mod-morph";
-    label = "n";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp N>, <&kp LC(N)>;
@@ -54,7 +48,6 @@ mp_mi_n: morph_mac_n {
 
 mp_mi_y: morph_mac_y {
     compatible = "zmk,behavior-mod-morph";
-    label = "y";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp Y>, <&kp LC(Y)>;

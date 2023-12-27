@@ -1,6 +1,5 @@
 mp_wi_a: morph_windows_a {
     compatible = "zmk,behavior-mod-morph";
-    label = "a";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp A>, <&kp LC(A)>;
@@ -9,7 +8,6 @@ mp_wi_a: morph_windows_a {
 
 mp_wi_e: morph_windows_e {
     compatible = "zmk,behavior-mod-morph";
-    label = "e";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp E>, <&kp LC(E)>;
@@ -18,7 +16,6 @@ mp_wi_e: morph_windows_e {
 
 mp_wi_i: morph_windows_i {
     compatible = "zmk,behavior-mod-morph";
-    label = "i";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp I>, <&kp LC(I)>;
@@ -27,7 +24,6 @@ mp_wi_i: morph_windows_i {
 
 mp_wi_o: morph_windows_o {
     compatible = "zmk,behavior-mod-morph";
-    label = "o";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp O>, <&kp LC(O)>;
@@ -36,7 +32,6 @@ mp_wi_o: morph_windows_o {
 
 mp_wi_u: morph_windows_u {
     compatible = "zmk,behavior-mod-morph";
-    label = "u";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp U>, <&kp LC(U)>;
@@ -45,7 +40,6 @@ mp_wi_u: morph_windows_u {
 
 mp_wi_n: morph_windows_n {
     compatible = "zmk,behavior-mod-morph";
-    label = "n";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp N>, <&kp LC(N)>;
@@ -54,7 +48,6 @@ mp_wi_n: morph_windows_n {
 
 mp_wi_y: morph_windows_y {
     compatible = "zmk,behavior-mod-morph";
-    label = "y";
     #binding-cells = <0>;
     mods = <(MOD_LALT)>;
     bindings = <&kp Y>, <&kp LC(Y)>;

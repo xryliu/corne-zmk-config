@@ -1,7 +1,6 @@
 // action: ?░:░
 m_wd_cto: macro_windows_conditional_ternary_operator {
     compatible = "zmk,behavior-macro";
-    label = "m_wd_cto";
     #binding-cells = <0>;
     bindings
         = <&none>
@@ -13,7 +12,6 @@ m_wd_cto: macro_windows_conditional_ternary_operator {
 // action: ?.
 m_wd_oco: macro_windows_optional_chaining_operator {
     compatible = "zmk,behavior-macro";
-    label = "m_wd_oco";
     #binding-cells = <0>;
     bindings
         = <&kp QMARK &kp DOT>;
