@@ -1,4 +1,10 @@
-﻿; #Warn                        ;  Enable warnings to assist with detecting common errors.
+﻿; Modifiers
+; ^ Ctrl
+; ! Alt
+; + Shift
+; # Win
+
+; #Warn                        ;  Enable warnings to assist with detecting common errors.
 SendMode("Input")              ;  Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir(A_ScriptDir)     ;  Ensures a consistent starting directory.
 #SingleInstance force
@@ -17,7 +23,7 @@ A_IconTip := "Caps Lock: OFF"
     ; ShowMessage("CapsLock: " status)
 }
 
-$F18::
++$F18::
 {
     Sleep(10) ; drastically improves reliability on slower systems
     ChangeCapsIcon("CW-ON")
@@ -27,7 +33,7 @@ $F18::
     ChangeCapsIcon("OFF")
 }
 
-^$F18::
+^+$F18::
 {
     Sleep(10) ; drastically improves reliability on slower systems
     ChangeCapsIcon("CW-OFF")

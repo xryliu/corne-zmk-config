@@ -6,9 +6,9 @@
 #define mSTG  9
 
 /* Helpers */
-#define H_mCWR  F18
-#define F_mBAS  F19
-#define F_mDEV  F20
-#define F_mAXN  F21
-#define F_mFNK  F22
-#define F_mSTG  F23
+#define H_mCWR  LS(F18)
+#define F_mBAS  LS(F19)
+#define F_mDEV  LS(F20)
+#define F_mAXN  LS(F21)
+#define F_mFNK  LS(F22)
+#define F_mSTG  LS(F23)
