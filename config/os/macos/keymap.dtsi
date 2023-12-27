@@ -18,10 +18,10 @@
 
             label = "mBAS";
             bindings = <
-    MKY_ESC  &kp Q  &kp W  &kp F    &kp P  &kp B             &kp J    &kp L  &mp_mi_u  &mp_mi_y   &mp_k_m   NAV_DEL
-     &mp_bc   MB13   MB14   MB15     MB16  &kp G             &kp M     MB19      MB20      MB21      MB22  NAV_BSPC
+    MKY_ESC  &kp Q  &kp W  &kp F    &kp P  &kp B             &kp J    &kp L  &mp_mi_u  &mp_mi_y   &mp_k_m   MNV_DEL
+     &mp_bc   MB13   MB14   MB15     MB16  &kp G             &kp M     MB19      MB20      MB21      MB22  MNV_BSPC
     MKY_TAB  &kp Z  &kp X  &kp C    &kp D  &kp V             &kp K    &kp H    &mp_cs    &mp_dc  &mp_mk_q      MB35
-                            MB36  KEY_SPC   MB38              MB39  &kp RET      MB41
+                            MB36  KEY_SPC   MB38              MB39  MKY_RET      MB41
             >;
         };
 
@@ -41,10 +41,10 @@
 
             label = "mDEV";
             bindings = <
-    MKY_ESC     &kp AT  &mp_mDEV_pound  &mp_mDEV_money    &kp PLUS   &m_mi_d               &m_mi_t    &kp MINUS     &kp UNDER    &kp PRCNT      &m_mi_c   NAV_DEL
-     &mp_bc       MD13            MD14            MD15        MD16   &m_mi_s               &m_mi_g         MD19          MD20         MD21         MD22  NAV_BSPC
+    MKY_ESC     &kp AT  &mp_mDEV_pound  &mp_mDEV_money    &kp PLUS   &m_mi_d               &m_mi_t    &kp MINUS     &kp UNDER    &kp PRCNT      &m_mi_c   MNV_DEL
+     &mp_bc       MD13            MD14            MD15        MD16   &m_mi_s               &m_mi_g         MD19          MD20         MD21         MD22  MNV_BSPC
     MKY_TAB  &kp LC(R)        &kp LPAR        &kp RPAR   &kp ASTRK  &kp BSLH              &kp FSLH  &mp_mDEV_qs        &kp LT       &kp GT  &mp_mDEV_ql   &kp F12
-                                                &mp_cs     KEY_SPC      MD38                  MD39      &kp RET        &mp_dc
+                                                &mp_cs     KEY_SPC      MD38                  MD39      MKY_RET        &mp_dc
             >;
         };
 
@@ -75,10 +75,10 @@
 
             label = "mAXN";
             bindings = <
-    MKY_ESC      MA01  &mp_ma_prev    &kp UP  &mp_ma_next      MA05            &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY   NAV_DEL
-     &mp_bc      MA13         MA14      MA15         MA16      MA17                 &kp N0     MA19    MA20    MA21             MA22  NAV_BSPC
+    MKY_ESC      MA01  &mp_ma_prev    &kp UP  &mp_ma_next      MA05            &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY   MNV_DEL
+     &mp_bc      MA13         MA14      MA15         MA16      MA17                 &kp N0     MA19    MA20    MA21             MA22  MNV_BSPC
     MKY_TAB  MKY_UNDO      MKY_CUT  MKY_COPY    MKY_PASTE  MKY_REDO                &mp_k_m   &kp N1  &kp N2  &kp N3    &kp KP_DIVIDE      MA35
-                                      &mp_cs      KEY_SPC      MA38                   MA39  &kp RET  &mp_dc
+                                      &mp_cs      KEY_SPC      MA38                   MA39  MKY_RET  &mp_dc
             >;
         };
 
@@ -98,10 +98,10 @@
 
             label = "mFNK";
             bindings = <
-    MKY_ESC  &kp F9  &kp F10  &kp F11  &kp F12  &none                  &none    &none  &kp PG_UP  &none  &none   NAV_DEL
-     &mp_bc    MK13     MK14     MK15     MK16  &none                  &none     MK19       MK20   MK21   MK22  NAV_BSPC
+    MKY_ESC  &kp F9  &kp F10  &kp F11  &kp F12  &none                  &none    &none  &kp PG_UP  &none  &none   MNV_DEL
+     &mp_bc    MK13     MK14     MK15     MK16  &none                  &none     MK19       MK20   MK21   MK22  MNV_BSPC
     MKY_TAB  &kp F1   &kp F2   &kp F3   &kp F4  &none                  &none    &none      &none  &none  &none     &none
-                               &mp_cs  KEY_SPC   MK38                   MK39  &kp RET     &mp_dc
+                               &mp_cs  KEY_SPC   MK38                   MK39  MKY_RET     &mp_dc
             >;
         };
 
@@ -131,7 +131,7 @@
        MKY_ESC  &m_s_b1  &m_s_b2  &none     MS04      MS05                   MS07  &kp C_VOL_DN    &kp C_MUTE  &kp C_VOL_UP  MS10   MS11
           MS12  &m_s_b3  &m_s_b4  &none     MS16      MS17                   MS18    &kp C_PREV      &kp C_PP    &kp C_NEXT  MS22   MS23
           MS24  &m_s_b5  &m_s_b6  &none     MS28      MS29                   MS30      &kp C_RW    &kp C_STOP      &kp C_FF  MS34  &none
-                           &kp C_BRI_DN  KEY_SPC  &to_mBAS               &to_mAXN       &kp RET  &kp C_BRI_UP
+                           &kp C_BRI_DN  KEY_SPC  &to_mBAS               &to_mAXN       MKY_RET  &kp C_BRI_UP
             >;
         };
 
