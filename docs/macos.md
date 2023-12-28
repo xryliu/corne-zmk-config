@@ -33,6 +33,7 @@ Icons used to describe some modifiers and actions
 | <kbd>⎋</kbd> | Esc |
 | <kbd>↹</kbd> | Tab |
 | <kbd>⏎</kbd> | Return |
+| <kbd>␣</kbd> | Space |
 | <kbd>⇪</kbd> | [Hold Tap](https://zmk.dev/docs/behaviors/hold-tap#hold-tap) |
 | <kbd>🔁</kbd> | [Key Repeat](https://zmk.dev/docs/behaviors/key-repeat) |
 
@@ -93,7 +94,7 @@ Symbols and dev shortcuts for JS/TS.
 #### Symbols
 
 | Label           | Shortcut                                  |
-| :-------------: | ----------------------------------------: |
+| :-------------: | -------------------------------------- -: |
 | <kbd>°</kbd>    | <kbd>⌥</kbd>+<kbd>#</kbd>                |
 | <kbd>€</kbd>    | <kbd>⌥</kbd>+<kbd>$</kbd>                |
 | <kbd>«</kbd>    | <kbd>⌥</kbd>+<kbd>[</kbd>                |
@@ -147,18 +148,18 @@ Quick navigation actions and numbers. Function keys works independently as a sub
 
 #### Actions
 
-| Label         | Shortcut                   | Action               |
-| ------------: | -------------------------- | -------------------- |
+| Label          | Shortcut                   | Action               |
+| -------------: | -------------------------- | -------------------- |
 | <kbd><\|</kbd> |                            | Expand selection     |
 | <kbd>\|></kbd> |                            | Shrink selection     |
-| <kbd>↶</kbd> |                            | Undo                 |
-| <kbd>↷</kbd> |                            | Redo                 |
-| <kbd>⬚</kbd> |                            | Cut                  |
-| <kbd>⿻</kbd> |                            | Copy                 |
-| <kbd>⏍</kbd> |                            | Paste                |
-| <kbd>⛶</kbd> | <kbd>⇧</kbd>+<kbd>⏍</kbd>  | Paste without format |
-| <kbd>☉</kbd> |                             | Find                |
-| <kbd>☊</kbd> |                             | Replace             |
+| <kbd>↶</kbd>  |                             | Undo                 |
+| <kbd>↷</kbd>  |                             | Redo                 |
+| <kbd>⬚</kbd>  |                             | Cut                  |
+| <kbd>⿻</kbd>  |                             | Copy                 |
+| <kbd>⏍</kbd>  |                             | Paste                |
+| <kbd>⛶</kbd>  | <kbd>⇧</kbd>+<kbd>⏍</kbd>   | Paste without format |
+| <kbd>☉</kbd>  |                             | Find                 |
+| <kbd>☊</kbd>  |                             | Replace              |
 
 ⇧ [Back to menu](#menu)
 
@@ -170,27 +171,29 @@ Dedicated to Bluetooth and media controls.
 
 #### Actions
 
-| Label           | Action                  |
-| --------------: |  ---------------------- |
-| <kbd>B#️⃣</kbd> | Jump to #️⃣ device        |
-| <kbd>⎉</kbd>   | Connect Quick Action     |
-| <kbd>B❌</kbd> | Clear current device     |
-| <kbd>▣</kbd>   | Print Screen             |
-| <kbd>⛢</kbd>   | Color Picker             |
-| <kbd>🖿</kbd>   | File Explorer            |
-| <kbd>Z+</kbd>   | Zoom in                  |
-| <kbd>ZR</kbd>   | Zoom reset               |
-| <kbd>Z-</kbd>   | Zoom out                 |
-| <kbd>M+</kbd>   | Magnifier in             |
-| <kbd>MR</kbd>   | Magnifier reset          |
-| <kbd>M-</kbd>   | Magnifier out            |
-| <kbd>🔅</kbd>  | Bright down              |
-| <kbd>🔆</kbd>  | Bright up                |
-| <kbd>⎚</kbd>   | Fancy Zones              |
-| <kbd>▤</kbd>   | Task Manager             |
-| <kbd>ⓘ</kbd>   | System Info             |
-| <kbd>⛨</kbd>   | Security                |
-| <kbd>⎈</kbd>   | Settings                 |
+| Label                     | Action                        |
+| ------------------------: |  ---------------------------- |
+| <kbd>B#️⃣</kbd>            | Jump to #️⃣ device             |
+| <kbd>⎉</kbd>              | Connect Quick Action          |
+| <kbd>B❌</kbd>            | Clear current device          |
+| <kbd>▣</kbd>              | Capture portion of the screen |
+| <kbd>▣</kbd>+<kbd>␣</kbd> | capture a window or menu      |
+| <kbd>□</kbd>              | capture screen shoot          |
+| <kbd>⛢</kbd>              | Color Picker                 |
+| <kbd>🖿</kbd>              | Finder (File Explorer)       |
+| <kbd>Z+</kbd>              | Zoom in                      |
+| <kbd>ZR</kbd>              | Zoom reset                   |
+| <kbd>Z-</kbd>              | Zoom out                     |
+| <kbd>M+</kbd>              | Magnifier in                 |
+| <kbd>MR</kbd>              | Magnifier reset              |
+| <kbd>M-</kbd>              | Magnifier out                |
+| <kbd>🔅</kbd>              | Bright down                  |
+| <kbd>🔆</kbd>              | Bright up                    |
+| <kbd>⎚</kbd>               | Fancy Zones                  |
+| <kbd>▤</kbd>               | Task Manager                 |
+| <kbd>ⓘ</kbd>              | System Info                   |
+| <kbd>⛨</kbd>              | Security                      |
+| <kbd>⎈</kbd>               | Settings                     |
 
 #### Media
 
