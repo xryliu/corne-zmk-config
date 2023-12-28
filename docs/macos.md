@@ -201,7 +201,7 @@ Dedicated to Bluetooth and media controls.
 | ------------: |  ----------- |
 | <kbd>🔊</kbd> | Volume up    |
 | <kbd>🔇</kbd> | Mute         |
-| <kbd>🔉</kbd>  | Volume down  |
+| <kbd>🔉</kbd> | Volume down  |
 | <kbd>⏹️</kbd> | Stop         |
 | <kbd>⏪</kbd> | Fast reverse |
 | <kbd>⏮️</kbd> | Prev         |
