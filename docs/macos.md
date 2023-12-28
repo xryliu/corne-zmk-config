@@ -177,8 +177,8 @@ Dedicated to Bluetooth and media controls.
 | <kbd>⎉</kbd>              | Connect Quick Action          |
 | <kbd>B❌</kbd>            | Clear current device          |
 | <kbd>▣</kbd>              | Capture portion of the screen |
-| <kbd>▣</kbd>+<kbd>␣</kbd> | capture a window or menu      |
-| <kbd>□</kbd>              | capture screen shoot          |
+| <kbd>▣</kbd>+<kbd>␣</kbd> | Capture a window or menu      |
+| <kbd>□</kbd>              | Capture screen shoot          |
 | <kbd>⛢</kbd>              | Color Picker                 |
 | <kbd>🖿</kbd>              | Finder (File Explorer)       |
 | <kbd>Z+</kbd>              | Zoom in                      |
