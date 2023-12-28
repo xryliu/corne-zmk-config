@@ -94,7 +94,7 @@ Symbols and dev shortcuts for JS/TS.
 #### Symbols
 
 | Label           | Shortcut                                  |
-| :-------------: | -------------------------------------- -: |
+| :-------------: | ----------------------------------------: |
 | <kbd>°</kbd>    | <kbd>⌥</kbd>+<kbd>#</kbd>                |
 | <kbd>€</kbd>    | <kbd>⌥</kbd>+<kbd>$</kbd>                |
 | <kbd>«</kbd>    | <kbd>⌥</kbd>+<kbd>[</kbd>                |
@@ -198,7 +198,7 @@ Dedicated to Bluetooth and media controls.
 #### Media
 
 | Label         | Action       |
-| ------------: |  ----------- |
+| ------------: | ------------ |
 | <kbd>🔊</kbd> | Volume up    |
 | <kbd>🔇</kbd> | Mute         |
 | <kbd>🔉</kbd> | Volume down  |
