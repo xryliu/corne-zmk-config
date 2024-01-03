@@ -6,7 +6,7 @@
 #define wSTG  4
 
 /* Helpers */
-#define H_wCWR  LS(F18)
+#define H_wCWR  F18
 #define F_wBAS  LS(F19)
 #define F_wDEV  LS(F20)
 #define F_wAXN  LS(F21)

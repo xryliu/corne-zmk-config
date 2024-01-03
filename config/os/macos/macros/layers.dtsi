@@ -9,16 +9,23 @@ MOTO_MACRO(m, STG, BAS)  //mo_mSTG_to_mBAS
 MOTO_MACRO(m, DEV, BAS)  //mo_mDEV_to_mBAS
 MOTO_MACRO(m, FNK, AXN)  //mo_mFNK_to_mAXN
 
+cw_mCAPS: cw_mCAPS {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings =
+        <&kp H_mCWR &kp CLCK>;
+};
+
 cw_mON: cw_mON {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
-        <&kp H_mCWR &cw>;
+        <&kp LS(H_mCWR) &cw>;
 };
 
 cw_mOFF: cw_mOFF {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
-        <&kp LC(H_mCWR) &kp K_CANCEL>;
+        <&kp LS(LC(H_mCWR)) &kp K_CANCEL>;
 };
