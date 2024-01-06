@@ -2,7 +2,6 @@
 // shift:   ⎗
 mp_wa_prev: morph_windows_action_prev {
     compatible = "zmk,behavior-mod-morph";
-    label = "mp_wa_prev";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
     bindings = <&kp RC(PG_UP)>, <&kp LC(LG(LEFT))>;
@@ -12,7 +11,6 @@ mp_wa_prev: morph_windows_action_prev {
 // shift:   ⎘
 mp_wa_next: morph_windows_action_next {
     compatible = "zmk,behavior-mod-morph";
-    label = "mp_wa_next";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
     bindings = <&kp RC(PG_DN)>, <&kp LC(LG(RIGHT))>;

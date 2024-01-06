@@ -11,7 +11,6 @@ MOTO_MACRO(a, FNK, AXN)  //mo_aFNK_to_aAXN
 
 cw_aON: cw_aON {
     compatible = "zmk,behavior-macro";
-    label = "cw_aON";
     #binding-cells = <0>;
     bindings =
         <&kp LC(H_aCWR) &cw>;
@@ -19,7 +18,6 @@ cw_aON: cw_aON {
 
 cw_aOFF: cw_aOFF {
     compatible = "zmk,behavior-macro";
-    label = "cw_aOFF";
     #binding-cells = <0>;
     bindings =
         <&kp LA(H_aCWR) &kp K_CANCEL>;

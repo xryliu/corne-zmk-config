@@ -1,0 +1,9 @@
+// tap:          capture portion of the screen
+// tap + space:  capture a window or menu
+// shift:        capture screen shoot
+mp_ma_screen: morph_mac_action_screen {
+    compatible = "zmk,behavior-mod-morph";
+    #binding-cells = <0>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+    bindings = <&kp RS(RG(N4))>, <&kp RG(N3)>;
+};

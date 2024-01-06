@@ -16,7 +16,7 @@
             #define AB39  &mo_aAXNaBAS_to_aFNK  0  0
             #define AB41  &mp_a_dev
 
-            label = "aBAS";
+            display-name = "aBAS";
             bindings = <
     AKY_ESC  &kp Q  &kp W  &kp F    &kp P  &kp B             &kp J    &kp L  &mp_ai_u  &mp_ai_y   &mp_k_m   NAV_DEL
      &mp_bc   AB13   AB14   AB15     AB16  &kp G             &kp M     AB19      AB20      AB21      AB22  NAV_BSPC
@@ -39,7 +39,7 @@
             #define AD38  &mo_aAXNaDEV_to_aBAS  0  0
             #define AD39  &mo_aAXNaDEV_to_aAXN  0  0
 
-            label = "aDEV";
+            display-name = "aDEV";
             bindings = <
     AKY_ESC     &kp AT &kp POUND  &kp DLLR    &kp PLUS   &m_ai_d               &m_ai_t    &kp MINUS    &kp UNDER    &kp PRCNT      &m_ai_c   NAV_DEL
      &mp_bc       AD13      AD14      AD15        AD16   &m_ai_s               &m_ai_g         AD19         AD20         AD21         AD22  NAV_BSPC
@@ -73,7 +73,7 @@
             #define AKY_COPY   &kp LC(C)       // tap: copy
             #define AKY_PASTE  &kp LC(V)       // tap: paste
 
-            label = "aAXN";
+            display-name = "aAXN";
             bindings = <
     AKY_ESC      AA01     AA02    &kp UP       AA04      AA05            &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY   NAV_DEL
      &mp_bc      AA13     AA14      AA15       AA16      AA17                 &kp N0     AA19    AA20    AA21             AA22  NAV_BSPC
@@ -96,7 +96,7 @@
             #define AK38  &to_aBAS
             #define AK39  &to_aAXN
 
-            label = "aFNK";
+            display-name = "aFNK";
             bindings = <
     AKY_ESC  &kp F9  &kp F10  &kp F11  &kp F12  &none                  &none    &none  &kp PG_UP  &none  &none   NAV_DEL
      &mp_bc    AK13     AK14     AK15     AK16  &none                  &none     AK19       AK20   AK21   AK22  NAV_BSPC
@@ -121,7 +121,7 @@
             #define AS28  &kp LG(E)            // tap: mail
             #define AS29  &kp LG(C)            // tap: contacts
 
-            label = "aSTG";
+            display-name = "aSTG";
             bindings = <
        AKY_ESC  &m_s_b1  &m_s_b2  &none     AS04      AS05                  &none  &kp K_VOL_DN    &kp K_MUTE  &kp K_VOL_UP   AS10   AS11
           AS12  &m_s_b3  &m_s_b4  &none     AS16      AS17                  &none    &kp K_PREV      &kp K_PP    &kp K_NEXT   AS22   AS23
