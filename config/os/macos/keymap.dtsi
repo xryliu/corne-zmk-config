@@ -36,6 +36,8 @@
             #define MD21  &hm_mDEV_RC  RCMD    0
             #define MD22  &hm          RCTRL   PIPE
 
+            #define MD35  &kp LA(LG(I))                 // tap: dev tools
+
             #define MD38  &mo_mAXNmDEV_to_mBAS  0  0
             #define MD39  &mo_mAXNmDEV_to_mAXN  0  0
 
@@ -43,7 +45,7 @@
             bindings = <
     MKY_ESC     &kp AT  &mp_mDEV_pound  &mp_mDEV_money    &kp PLUS   &m_mi_d               &m_mi_t    &kp MINUS     &kp UNDER    &kp PRCNT      &m_mi_c   MNV_DEL
   &mp_mk_bc       MD13            MD14            MD15        MD16   &m_mi_s               &m_mi_g         MD19          MD20         MD21         MD22  MNV_BSPC
-    MKY_TAB  &kp LG(R)        &kp LPAR        &kp RPAR   &kp ASTRK  &kp BSLH              &kp FSLH  &mp_mDEV_qs        &kp LT       &kp GT  &mp_mDEV_ql   &kp F12
+    MKY_TAB  &kp LG(R)        &kp LPAR        &kp RPAR   &kp ASTRK  &kp BSLH              &kp FSLH  &mp_mDEV_qs        &kp LT       &kp GT  &mp_mDEV_ql      MD35
                                                 &mp_cs     KEY_SPC      MD38                  MD39      MKY_RET        &mp_dc
             >;
         };
@@ -55,7 +57,7 @@
             #define MA14  &hm  LCMD   LEFT
             #define MA15  &hm  LALT   DOWN
             #define MA16  &hm  LSHFT  RIGHT
-            #define MA17  &kp  LC(H)                    // tap: replace
+            #define MA17  &kp  LA(LG(F))                // tap: replace
 
             #define MA19  &hm  LSHFT  N4
             #define MA20  &hm  LALT   N5
