@@ -177,7 +177,6 @@ Dedicated to Bluetooth and media controls.
 | <kbd>🔊</kbd> | Volume up    |
 | <kbd>🔇</kbd> | Mute         |
 | <kbd>🔉</kbd>  | Volume down  |
-| <kbd>⏹️</kbd> | Stop         |
 | <kbd>⏮️</kbd> | Prev         |
 | <kbd>⏯️</kbd> | Play/Pause   |
 | <kbd>⏭️</kbd> | Next         |
