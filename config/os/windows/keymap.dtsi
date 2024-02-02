@@ -108,7 +108,7 @@
         windows_settings_layer {
             #define WS10  &kp LG(LS(GRAVE))    // tap: fancy zones
             #define WS11  &kp LC(LS(ESC))      // tap: task manager
-            #define WS12  &kp LG(KEY_SPC)      // tap: input source
+            #define WS12  &kp LG(SPACE)        // tap: input source
             #define WS24  &bt BT_CLR           // tap: clear Bluetooth
 
             #define WS22  &kp RG(PAUSE_BREAK)  // tap: system info
