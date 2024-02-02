@@ -21,8 +21,8 @@ m_ad_oco: macro_android_optional_chaining_operator {
 m_ad_bc: macro_android_dev_block_comment {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings
     wait-ms = <MC_WAIT_START>;
+    bindings
         = <&none &kp LALT> /* ALT fix for VSCode */
         , <&macro_wait_time MC_WAIT>
         , <&kp LC(LS(A))>;
