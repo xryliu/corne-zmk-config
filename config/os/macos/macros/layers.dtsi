@@ -13,7 +13,7 @@ cw_mCAPS: cw_mCAPS {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
-        <&kp H_mCWR &kp CLCK>;
+        <&kp H_mCWR &kp CAPS>;
 };
 
 cw_mON: cw_mON {
