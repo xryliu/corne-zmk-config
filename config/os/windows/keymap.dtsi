@@ -122,9 +122,9 @@
             #define WS28  &kp LG(E)            // tap: file explorer
             #define WS29  &kp RC(MINUS)        // tap: zoom out
 
-            #define WS07  &kp RG(EQUAL)        // tap: magnifier in
-            #define WS18  &kp RG(ESC)          // tap: magnifier reset
-            #define WS30  &kp RG(MINUS)        // tap: magnifier out
+            #define WS07  &kp LA(LG(SQT))      // tap: magnifier in
+            #define WS18  &kp LA(LG(N8))       // tap: magnifier reset
+            #define WS30  &kp LA(LG(MINUS))    // tap: magnifier out
 
             display-name = "wSTG";
             bindings = <

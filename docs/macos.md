@@ -185,7 +185,7 @@ Dedicated to Bluetooth and media controls.
 | <kbd>ZR</kbd>              | Zoom reset                   |
 | <kbd>Z-</kbd>              | Zoom out                     |
 | <kbd>M+</kbd>              | Magnifier in                 |
-| <kbd>MR</kbd>              | Magnifier reset              |
+| <kbd>MR</kbd>              | Magnifier toggle/reset       |
 | <kbd>M-</kbd>              | Magnifier out                |
 | <kbd>🔅</kbd>              | Bright down                  |
 | <kbd>🔆</kbd>              | Bright up                    |
