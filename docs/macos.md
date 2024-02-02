@@ -174,7 +174,7 @@ Dedicated to Bluetooth and media controls.
 | Label                     | Action                        |
 | ------------------------: |  ---------------------------- |
 | <kbd>B#️⃣</kbd>            | Jump to #️⃣ device             |
-| <kbd>⎉</kbd>              | Connect Quick Action          |
+| <kbd>⎉</kbd>              | Input Source                  |
 | <kbd>B❌</kbd>            | Clear current device          |
 | <kbd>▣</kbd>              | Capture portion of the screen |
 | <kbd>▣</kbd>+<kbd>␣</kbd> | Capture a window or menu      |
