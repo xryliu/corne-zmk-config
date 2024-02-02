@@ -36,7 +36,6 @@ Icons used to describe some modifiers and actions
 | <kbd>↹</kbd> | Tab |
 | <kbd>⏎</kbd> | Return |
 | <kbd>⇪</kbd> | [Hold Tap](https://zmk.dev/docs/behaviors/hold-tap#hold-tap) |
-| <kbd>🔁</kbd> | [Key Repeat](https://zmk.dev/docs/behaviors/key-repeat) |
 
 ### Shared Modifiers
 
@@ -44,8 +43,8 @@ Icons used to describe some modifiers and actions
 | --------------: | --------------------------------------: | ----------------------------------------------------- |
 | <kbd>⌫</kbd>   |                                         | Backspace                                             |
 | <kbd>\|⌫</kbd> | <kbd>⇪⌫</kbd>                          | Delete word backward                                  |
-| <kbd>⌦</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>              | Delete                                                |
-| <kbd>⌦\|</kbd> | <kbd>⇧</kbd>+<kbd>⇪⌫</kbd>             | Delete word forward                                   |
+| <kbd>⌦</kbd>   |                                         | Delete                                                |
+| <kbd>⌦\|</kbd> | <kbd>⇪⌫</kbd>                          | Delete word forward                                   |
 | <kbd>F2</kbd>   | <kbd>⇪⏎</kbd>                           | Rename (like macOS)                                   |
 | <kbd>▷</kbd>   | <kbd>⇪↹</kbd>                            | left (terminal autocompletion)                        |
 | <kbd>🄰</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>               | Caps lock                                             |
@@ -193,6 +192,9 @@ Dedicated to Bluetooth and media controls.
 | <kbd>ⓘ</kbd>   | System Info             |
 | <kbd>⛨</kbd>   | Windows Security        |
 | <kbd>⎈</kbd>   | Windows Settings         |
+
+> [!CAUTION]
+> ⛔ Zoom reset shortcut does not work on vscode.  
 
 #### Media
 

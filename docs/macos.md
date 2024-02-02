@@ -25,7 +25,7 @@ Icons used to describe some modifiers and actions
 
 | Label        | Description |
 | :-----------: | ----------- |
-| <kbd>❖</kbd> | Win |
+| <kbd>⌘</kbd> | Command |
 | <kbd>⌃</kbd> | Control |
 | <kbd>⌥</kbd> | Alt |
 | <kbd>⇧</kbd> | Shift |
@@ -35,7 +35,6 @@ Icons used to describe some modifiers and actions
 | <kbd>⏎</kbd> | Return |
 | <kbd>␣</kbd> | Space |
 | <kbd>⇪</kbd> | [Hold Tap](https://zmk.dev/docs/behaviors/hold-tap#hold-tap) |
-| <kbd>🔁</kbd> | [Key Repeat](https://zmk.dev/docs/behaviors/key-repeat) |
 
 ### Shared Modifiers
 
@@ -43,14 +42,15 @@ Icons used to describe some modifiers and actions
 | --------------: | --------------------------------------: | ----------------------------------------------------- |
 | <kbd>⌫</kbd>   |                                         | Backspace                                             |
 | <kbd>\|⌫</kbd> | <kbd>⇪⌫</kbd>                          | Delete word backward                                  |
-| <kbd>⌦</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>              | Delete                                                |
-| <kbd>⌦\|</kbd> | <kbd>⇧</kbd>+<kbd>⇪⌫</kbd>             | Delete word forward                                   |
-| <kbd>F2</kbd>   | <kbd>⇪⏎</kbd>                           | Rename (like macOS)                                   |
-| <kbd>▷</kbd>   | <kbd>⇪↹</kbd>                            | left (terminal autocompletion)                        |
-| <kbd>🄰</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>               | Caps lock                                             |
-| <kbd>⇧⇧</kbd>  | <kbd>L⇧</kbd>+<kbd>R⇧</kbd>              | [Caps word](https://zmk.dev/docs/behaviors/caps-word) |
-| <kbd>^^</kbd>  | <kbd>L^</kbd>+<kbd>R^</kbd>              | Cancel caps                                           |
-| <kbd>❖❖</kbd>  | <kbd>L❖</kbd>+<kbd>R❖</kbd>            | Show current layout on screen                         |
+| <kbd>⌫\|</kbd> | <kbd>⌘</kbd>+<kbd>⌫</kbd>             | Delete until beginning                                   |
+| <kbd>⌦</kbd>   |                                         | Delete                                                |
+| <kbd>⌦\|</kbd> | <kbd>⇪⌦</kbd>                         | Delete word forward                                   |
+| <kbd>\|⌦</kbd> | <kbd>⌘</kbd>+<kbd>⌦</kbd>             | Delete until end                                         |
+| <kbd>▷</kbd>   | <kbd>⇪↹</kbd>                           | left (terminal autocompletion)                        |
+| <kbd>🄰</kbd>    | <kbd>⇧</kbd>+<kbd>⌫</kbd>              | Caps lock                                             |
+| <kbd>⇧⇧</kbd>   | <kbd>L⇧</kbd>+<kbd>R⇧</kbd>              | [Caps word](https://zmk.dev/docs/behaviors/caps-word) |
+| <kbd>^^</kbd>   | <kbd>L^</kbd>+<kbd>R^</kbd>              | Cancel caps                                           |
+| <kbd>⌘⌘</kbd>  | <kbd>L⌘</kbd>+<kbd>R⌘</kbd>           | Show current layout on screen                         |
 
 ⇧ [Back to menu](#menu)
 
@@ -194,6 +194,12 @@ Dedicated to Bluetooth and media controls.
 | <kbd>ⓘ</kbd>              | System Info                   |
 | <kbd>⛨</kbd>              | Security                      |
 | <kbd>⎈</kbd>               | Settings                     |
+
+> [!CAUTION]
+> ⛔ Zoom reset shortcut does not work on vscode.  
+
+> [!IMPORTANT]
+> Magnifier tools required to be enabled by `setting` -> `accessibility` -> `zoom` and enabling `use keyboard shortcuts to zoom`.
 
 #### Media
 
