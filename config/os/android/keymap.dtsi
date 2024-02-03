@@ -43,7 +43,7 @@
             bindings = <
     AKY_ESC     &kp AT &kp POUND  &kp DLLR    &kp PLUS   &m_ai_d               &m_ai_t    &kp MINUS    &kp UNDER    &kp PRCNT      &m_ai_c   NAV_DEL
      &mp_bc       AD13      AD14      AD15        AD16   &m_ai_s               &m_ai_g         AD19         AD20         AD21         AD22  NAV_BSPC
-    AKY_TAB  &kp LC(R)  &kp LPAR  &kp RPAR   &kp ASTRK  &kp BSLH            &mp_aDEV_s    &kp QMARK       &kp LT       &kp GT  &mp_aDEV_ql     &none
+    AKY_TAB  &kp LC(R)  &kp LPAR  &kp RPAR   &kp ASTRK  &kp BSLH              &kp FSLH    &kp QMARK       &kp LT       &kp GT  &mp_aDEV_ql     &none
                                     &mp_cs     KEY_SPC      AD38                  AD39      AKY_RET       &mp_dc
             >;
         };

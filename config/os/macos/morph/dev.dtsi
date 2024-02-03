@@ -60,8 +60,19 @@ MORPH_KA(
     es,
     exclamation_symbol,
     MOD_LALT,
-    &kp EXCL,    // tap:  !
-    &kp LA(N1)   // alt:  ¡
+    &kp EXCL,   // tap:  !
+    &kp LA(N1)  // alt:  ¡
+)
+
+// mp_mDEV_s
+MORPH_KA(
+    a,
+    DEV,
+    s,
+    slash,
+    MOD_LALT|MOD_RALT,
+    &kp FSLH,      // tap:  /
+    &kp LA(LS(A))  // alt:  /* block comment */
 )
 
 //mp_mDEV_ql

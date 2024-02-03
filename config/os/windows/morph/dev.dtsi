@@ -64,6 +64,17 @@ MORPH_KA(
     &kp LC(N1)   // alt:  ¡
 )
 
+// mp_wDEV_s
+MORPH_KA(
+    a,
+    DEV,
+    s,
+    slash,
+    MOD_LALT|MOD_RALT,
+    &kp FSLH,      // tap:  /
+    &kp LA(LS(A))  // alt:  /* block comment */
+)
+
 //mp_wDEV_ql
 MORPH_KS(
     w,
