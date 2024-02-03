@@ -115,7 +115,7 @@ Symbols and dev shortcuts for JS/TS.
 | Label               | Shortcut                                | Action                      |
 | ------------------: | --------------------------------------: | --------------------------- |
 | <kbd>//</kbd>       | <kbd>⌃</kbd>+<kbd>/</kbd>               | Toggle line comment         |
-| <kbd>/\* \*/</kbd>  | <kbd>⇧</kbd>+<kbd>/</kbd>               | Toggle block comment        |
+| <kbd>/\* \*/</kbd>  | <kbd>⌥</kbd>+<kbd>/</kbd>               | Toggle block comment        |
 
 ⇧ [Back to menu](#menu)
 
