@@ -194,7 +194,7 @@ Dedicated to Bluetooth and media controls.
 | <kbd>⎈</kbd>   | Windows Settings         |
 
 > [!CAUTION]
-> ⛔ Zoom reset shortcut does not work on vscode.  
+> Zoom reset shortcut does not work on vscode.  
 
 #### Media
 
@@ -202,10 +202,10 @@ Dedicated to Bluetooth and media controls.
 | ------------: |  ----------- |
 | <kbd>🔊</kbd> | Volume up    |
 | <kbd>🔇</kbd> | Mute         |
-| <kbd>🔉</kbd>  | Volume down  |
-| <kbd>⏮️</kbd> | Prev         |
-| <kbd>⏯️</kbd> | Play/Pause   |
-| <kbd>⏭️</kbd> | Next         |
+| <kbd>🔉</kbd>  | Volume down |
+| <kbd>⏮️</kbd> | Prev          |
+| <kbd>⏯️</kbd> | Play/Pause    |
+| <kbd>⏭️</kbd> | Next          |
 
 ⇧ [Back to menu](#menu)
 

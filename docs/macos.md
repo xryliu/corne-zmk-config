@@ -171,32 +171,30 @@ Dedicated to Bluetooth and media controls.
 
 #### Actions
 
-| Label                     | Action                        |
-| ------------------------: |  ---------------------------- |
-| <kbd>B#️⃣</kbd>            | Jump to #️⃣ device             |
-| <kbd>⎉</kbd>              | Input Source                  |
-| <kbd>B❌</kbd>            | Clear current device          |
-| <kbd>▣</kbd>              | Capture portion of the screen |
-| <kbd>▣</kbd>+<kbd>␣</kbd> | Capture a window or menu      |
-| <kbd>□</kbd>              | Capture screen shoot          |
-| <kbd>⛢</kbd>              | Color Picker                 |
-| <kbd>🖿</kbd>              | Finder (File Explorer)       |
-| <kbd>Z+</kbd>              | Zoom in                      |
-| <kbd>ZR</kbd>              | Zoom reset                   |
-| <kbd>Z-</kbd>              | Zoom out                     |
-| <kbd>M+</kbd>              | Magnifier in                 |
-| <kbd>MR</kbd>              | Magnifier toggle/reset       |
-| <kbd>M-</kbd>              | Magnifier out                |
-| <kbd>🔅</kbd>              | Bright down                  |
-| <kbd>🔆</kbd>              | Bright up                    |
-| <kbd>⎚</kbd>               | Fancy Zones                  |
-| <kbd>▤</kbd>               | Task Manager                 |
-| <kbd>ⓘ</kbd>              | System Info                   |
-| <kbd>⛨</kbd>              | Security                      |
-| <kbd>⎈</kbd>               | Settings                     |
-
-> [!CAUTION]
-> ⛔ Zoom reset shortcut does not work on vscode.  
+| Label                     | Shortcut                   | Action                        |
+| ------------------------: | -------------------------- |  ---------------------------- |
+| <kbd>B#️⃣</kbd>             |                            | Jump to #️⃣ device             |
+| <kbd>⎉</kbd>              |                            | Input Source                  |
+| <kbd>B❌</kbd>            |                            | Clear current device          |
+| <kbd>▣</kbd>              |                            | Capture portion of the screen |
+| <kbd>▣</kbd>              | <kbd>▣</kbd>+<kbd>␣</kbd>  | Capture a window or menu      |
+| <kbd>□</kbd>              | <kbd>⇧</kbd>+<kbd>▣</kbd>  | Capture screenshot            |
+| <kbd>⛢</kbd>             |                            | Color Picker                 |
+| <kbd>🖿</kbd>             |                            | Finder (File Explorer)       |
+| <kbd>Z+</kbd>             |                            | Zoom in                      |
+| <kbd>ZR</kbd>             |                            | Zoom reset                   |
+| <kbd>ZR</kbd>             | <kbd>⇧</kbd>+<kbd>ZR</kbd> | Zoom reset VSCode            |
+| <kbd>Z-</kbd>             |                            | Zoom out                     |
+| <kbd>M+</kbd>             |                            | Magnifier in                 |
+| <kbd>MR</kbd>             |                            | Magnifier toggle/reset       |
+| <kbd>M-</kbd>             |                            | Magnifier out                |
+| <kbd>🔅</kbd>             |                            | Bright down                  |
+| <kbd>🔆</kbd>             |                            | Bright up                    |
+| <kbd>⎚</kbd>              |                            | Fancy Zones                  |
+| <kbd>▤</kbd>              |                            | Task Manager                 |
+| <kbd>ⓘ</kbd>              |                            | System Info                   |
+| <kbd>⛨</kbd>             |                            | Security                      |
+| <kbd>⎈</kbd>              |                            | Settings                     |
 
 > [!IMPORTANT]
 > Magnifier tools required to be enabled by `setting` -> `accessibility` -> `zoom` and enabling `use keyboard shortcuts to zoom`.

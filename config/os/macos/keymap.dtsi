@@ -119,19 +119,20 @@
 
             #define MS04  &kp LG(LS(C))        // tap: color picker
             #define MS05  &kp RG(PLUS)         // tap: zoom in
-            #define MS16  &mp_ma_screen        // tap: print screen
-            #define MS17  &kp RG(N0)           // tap: zoom reset
+            #define MS16  &mp_ma_screen        // tap: print screen | hold: screenshot
+            #define MS17  &mp_ma_zoom_reset    // tap: zoom reset | hold: reset vscode
             #define MS28  &kp LA(LG(SPACE))    // tap: (finder) file explorer
             #define MS29  &kp RG(MINUS)        // tap: zoom out
 
             #define MS07  &kp RC(RA(EQUAL))    // tap: magnifier in
             #define MS18  &kp RC(RA(N8))       // tap: magnifier on/off
+            #define MS19  &hm RSHFT  C_PREV
             #define MS30  &kp RC(RA(MINUS))    // tap: magnifier out
 
             display-name = "mSTG";
             bindings = <
        MKY_ESC  &m_s_b1  &m_s_b2  &none     MS04      MS05                   MS07  &kp C_VOL_DN    &kp C_MUTE  &kp C_VOL_UP  MS10   MS11
-          MS12  &m_s_b3  &m_s_b4  &none     MS16      MS17                   MS18    &kp C_PREV      &kp C_PP    &kp C_NEXT  MS22   MS23
+          MS12  &m_s_b3  &m_s_b4  &none     MS16      MS17                   MS18          MS19      &kp C_PP    &kp C_NEXT  MS22   MS23
           MS24  &m_s_b5  &m_s_b6  &none     MS28      MS29                   MS30         &none         &none         &none  MS34  &none
                            &kp C_BRI_DN  KEY_SPC  &to_mBAS               &to_mAXN       MKY_RET  &kp C_BRI_UP
             >;
