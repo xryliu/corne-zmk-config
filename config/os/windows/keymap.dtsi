@@ -118,7 +118,7 @@
             #define WS04  &kp LG(LS(C))        // tap: color picker
             #define WS05  &kp RC(PLUS)         // tap: zoom in
             #define WS16  &kp LG(LS(S))        // tap: print screen
-            #define WS17  &kp RC(N0)           // tap: zoom reset
+            #define WS17  &mp_wa_zoom_reset    // tap: zoom reset | shift: zoom reset on vscode
             #define WS28  &kp LG(E)            // tap: file explorer
             #define WS29  &kp RC(MINUS)        // tap: zoom out
 

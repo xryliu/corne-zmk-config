@@ -118,7 +118,7 @@
             #define MS04  &kp LG(LS(C))        // tap: color picker
             #define MS05  &kp RG(PLUS)         // tap: zoom in
             #define MS16  &mp_ma_screen        // tap: print screen | hold: screenshot
-            #define MS17  &mp_ma_zoom_reset    // tap: zoom reset | hold: reset vscode
+            #define MS17  &mp_ma_zoom_reset    // tap: zoom reset | shift: zoom reset on vscode
             #define MS28  &kp LA(LG(SPACE))    // tap: (finder) file explorer
             #define MS29  &kp RG(MINUS)        // tap: zoom out
 

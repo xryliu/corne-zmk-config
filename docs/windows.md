@@ -171,30 +171,28 @@ Dedicated to Bluetooth and media controls.
 
 #### Actions
 
-| Label           | Action                  |
-| --------------: |  ---------------------- |
-| <kbd>B#️⃣</kbd> | Jump to #️⃣ device        |
-| <kbd>⎉</kbd>   | Input source             |
-| <kbd>B❌</kbd> | Clear current device     |
-| <kbd>▣</kbd>   | Print Screen             |
-| <kbd>⛢</kbd>   | Color Picker             |
-| <kbd>🖿</kbd>   | File Explorer            |
-| <kbd>Z+</kbd>   | Zoom in                  |
-| <kbd>ZR</kbd>   | Zoom reset               |
-| <kbd>Z-</kbd>   | Zoom out                 |
-| <kbd>M+</kbd>   | Magnifier in             |
-| <kbd>MR</kbd>   | Magnifier reset          |
-| <kbd>M-</kbd>   | Magnifier out            |
-| <kbd>🔅</kbd>  | Bright down              |
-| <kbd>🔆</kbd>  | Bright up                |
-| <kbd>⎚</kbd>   | Fancy Zones              |
-| <kbd>▤</kbd>   | Task Manager             |
-| <kbd>ⓘ</kbd>   | System Info             |
-| <kbd>⛨</kbd>   | Windows Security        |
-| <kbd>⎈</kbd>   | Windows Settings         |
-
-> [!CAUTION]
-> Zoom reset shortcut does not work on vscode.  
+| Label           | Shortcut                   | Action                  |
+| --------------: | -------------------------- |  ---------------------- |
+| <kbd>B#️⃣</kbd>   |                            | Jump to #️⃣ device        |
+| <kbd>⎉</kbd>    |                            | Input source            |
+| <kbd>B❌</kbd>  |                            | Clear current device    |
+| <kbd>▣</kbd>    |                            | Print Screen            |
+| <kbd>⛢</kbd>   |                            | Color Picker            |
+| <kbd>🖿</kbd>   |                            | File Explorer           |
+| <kbd>Z+</kbd>   |                            | Zoom in                 |
+| <kbd>ZR</kbd>   |                            | Zoom reset              |
+| <kbd>ZR</kbd>   | <kbd>⇧</kbd>+<kbd>ZR</kbd> | Zoom reset VSCode       |
+| <kbd>Z-</kbd>   |                            | Zoom out                |
+| <kbd>M+</kbd>   |                            | Magnifier in            |
+| <kbd>MR</kbd>   |                            | Magnifier reset         |
+| <kbd>M-</kbd>   |                            | Magnifier out           |
+| <kbd>🔅</kbd>   |                            | Bright down             |
+| <kbd>🔆</kbd>   |                            | Bright up               |
+| <kbd>⎚</kbd>    |                            | Fancy Zones             |
+| <kbd>▤</kbd>    |                            | Task Manager            |
+| <kbd>ⓘ</kbd>    |                            | System Info             |
+| <kbd>⛨</kbd>   |                            | Windows Security        |
+| <kbd>⎈</kbd>    |                            | Windows Settings        |
 
 #### Media
 
