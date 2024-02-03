@@ -108,7 +108,7 @@
         mac_settings_layer {
             #define MS10  &none                // tap: fancy zones
             #define MS11  &kp LG(LA(ESC))      // tap: task manager
-            #define MS12  &kp GLOBE            // tap: input source
+            #define MS12  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT // tap: input source
             #define MS24  &bt BT_CLR           // tap: clear Bluetooth
 
             #define MS22  &none                // tap: system info
