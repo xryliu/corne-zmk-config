@@ -66,7 +66,7 @@ MORPH_KA(
 
 // mp_wDEV_s
 MORPH_KA(
-    a,
+    w,
     DEV,
     s,
     slash,
