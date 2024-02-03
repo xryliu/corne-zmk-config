@@ -127,24 +127,20 @@ Quick navigation actions and numbers. Function keys works independently as a sub
 
 #### Navigation
 
-| Label          | Shortcut                               | Action               |
-| ------------: | --------------------------------------- | -------------------- |
-| <kbd>△</kbd>  |                                        | Up                    |
-| <kbd>▽</kbd>  |                                        | Down                  |
-| <kbd>◁</kbd>  |                                        | Left                  |
-| <kbd>▷</kbd>  |                                        | Right                 |
-| <kbd>⇤</kbd>  |                                         | Home                  |
-| <kbd>⇥</kbd>  |                                         | End                   |
-| <kbd>⤒</kbd>  | <kbd>^</kbd>+<kbd>⇤</kbd>               | Beginning of document |
-| <kbd>⤓</kbd>  | <kbd>^</kbd>+<kbd>⇥</kbd>               | End of document       |
-| <kbd>⇞</kbd>  |                                         | Page up               |
-| <kbd>⇟</kbd>  |                                         | Page down             |
-| <kbd>⇺</kbd>  |                                         | Prev Tab              |
-| <kbd>⇻</kbd>  |                                         | Next Tab              |
-| <kbd>▦</kbd>  |                                        | New virtual desktop   |
-| <kbd>▩</kbd>  |                                        | Close virtual desktop |
-| <kbd>⎗</kbd>  | <kbd>⇧</kbd>+<kbd>⇺</kbd>              | Prev desktop          |
-| <kbd>⎘</kbd>  | <kbd>⇧</kbd>+<kbd>⇻</kbd>              | Next desktop          |
+| Label         | Shortcut                   | Action                |
+| ------------: | -------------------------- | --------------------- |
+| <kbd>△</kbd>  |                            | Up                    |
+| <kbd>▽</kbd>  |                            | Down                  |
+| <kbd>◁</kbd>  |                            | Left                  |
+| <kbd>▷</kbd>  |                            | Right                 |
+| <kbd>⇤</kbd>  |                            | Home                  |
+| <kbd>⇥</kbd>  |                            | End                   |
+| <kbd>⤒</kbd>  | <kbd>^</kbd>+<kbd>⇤</kbd>  | Beginning of document |
+| <kbd>⤓</kbd>  | <kbd>^</kbd>+<kbd>⇥</kbd>  | End of document       |
+| <kbd>⇞</kbd>  |                            | Page up               |
+| <kbd>⇟</kbd>  |                            | Page down             |
+| <kbd>⇺</kbd>  |                            | Prev Tab              |
+| <kbd>⇻</kbd>  |                            | Next Tab              |
 
 #### Actions
 
