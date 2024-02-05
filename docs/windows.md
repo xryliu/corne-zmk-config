@@ -192,8 +192,8 @@ Dedicated to Bluetooth and media controls.
 | <kbd>▤</kbd>    |                            | Task Manager            |
 | <kbd>ⓘ</kbd>    |                            | System Info             |
 | <kbd>⛨</kbd>   |                            | Windows Security        |
-| <kbd>⎈</kbd>    |                            | Windows Settings        |
 
+| <kbd>⎈</kbd>    |                            | Windows Settings        |
 #### Media
 
 | Label         | Action       |

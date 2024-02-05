@@ -117,7 +117,7 @@
 
             #define WS04  &kp LG(LS(C))        // tap: color picker
             #define WS05  &kp RC(PLUS)         // tap: zoom in
-            #define WS16  &kp LG(LS(S))        // tap: print screen
+            #define WS16  &mp_mSTG_screenshot
             #define WS17  &mp_wa_zoom_reset    // tap: zoom reset | shift: zoom reset on vscode
             #define WS28  &kp LG(E)            // tap: file explorer
             #define WS29  &kp RC(MINUS)        // tap: zoom out
@@ -125,12 +125,13 @@
             #define WS07  &kp LA(LG(SQT))      // tap: magnifier in
             #define WS18  &kp LA(LG(N8))       // tap: magnifier reset
             #define WS19  &hm RSHFT  C_PREV
+            #define WS20  &hm LALT   C_PP
             #define WS30  &kp LA(LG(MINUS))    // tap: magnifier out
 
             display-name = "wSTG";
             bindings = <
        WKY_ESC  &m_s_b1  &m_s_b2  &none     WS04      WS05                   WS07  &kp C_VOL_DN    &kp C_MUTE  &kp C_VOL_UP  WS10   WS11
-          WS12  &m_s_b3  &m_s_b4  &none     WS16      WS17                   WS18          WS19      &kp C_PP    &kp C_NEXT  WS22   WS23
+          WS12  &m_s_b3  &m_s_b4  &none     WS16      WS17                   WS18          WS19          WS20     &kp C_NEXT  WS22   WS23
           WS24  &m_s_b5  &m_s_b6  &none     WS28      WS29                   WS30         &none         &none         &none  WS34  &none
                            &kp C_BRI_DN  KEY_SPC  &to_wBAS               &to_wAXN       WKY_RET  &kp C_BRI_UP
             >;
