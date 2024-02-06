@@ -5,7 +5,7 @@ mp_ma_screen: morph_mac_action_screen {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&kp RS(RG(N4))>, <&kp RS(RG(N3))>;
+    bindings = <&kp RS(RG(N4))>, <&kp RG(N3)>;
 };
 
 // tap:          zoom reset
