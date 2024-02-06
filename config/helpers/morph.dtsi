@@ -52,8 +52,9 @@
     mp_##OS##LYR##_##NAME: morph_##OS##LYR##_##DESC {             \
         compatible = "zmk,behavior-mod-morph";                    \
         #binding-cells = <0>;                                     \
-        mods = <(MODS)>;                                          \
-        bindings = <&mp_##OS##LYR##_##NAME##_s>, <KA>;            \                               \
+        mods = <(MOD_LALT)>;                                      \
+        bindings = <&mp_##OS##LYR##_##NAME##_s>, <KA>;            \
+        keep-mods = <(MOD_LALT)>;                                 \
     };
 
 #define MORPH_KA(OS, LYR, NAME, DESC, MODS, KEY, KA)    \
