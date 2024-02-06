@@ -111,7 +111,7 @@
             #define MS12  &kp LC(LA(SPACE))    // tap: input source
             #define MS24  &bt BT_CLR           // tap: clear Bluetooth
 
-            #define MS22  &none                // tap: system info
+            #define MS22  &hm  RCTRL  &none    // tap: system info
             #define MS23  &none                // tap: settings
             #define MS34  &none                // tap: security
 

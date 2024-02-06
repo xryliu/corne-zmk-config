@@ -172,9 +172,6 @@ Dedicated to Bluetooth and media controls.
 | <kbd>B#️⃣</kbd>             |                            | Jump to #️⃣ device              |
 | <kbd>⎉</kbd>              |                            | Input Source                  |
 | <kbd>B❌</kbd>            |                            | Clear current device          |
-| <kbd>▣</kbd>              |                            | Capture portion of the screen |
-| <kbd>▣</kbd>              | <kbd>▣</kbd>+<kbd>␣</kbd>  | Capture a window or menu      |
-| <kbd>□</kbd>              | <kbd>⇧</kbd>+<kbd>▣</kbd>  | Capture screenshot            |
 | <kbd>⛢</kbd>             |                            | Color Picker                  |
 | <kbd>🖿</kbd>             |                            | Finder (File Explorer)        |
 | <kbd>Z+</kbd>             |                            | Zoom in                       |
@@ -194,6 +191,18 @@ Dedicated to Bluetooth and media controls.
 
 > [!IMPORTANT]
 > Magnifier tools required to be enabled by `setting` -> `accessibility` -> `zoom` and enabling `use keyboard shortcuts to zoom`.
+
+#### Screenshot
+
+| Label                     | Shortcut                   | Action                        |
+| ------------------------: | -------------------------- |  ---------------------------- |
+| <kbd>□</kbd>              |                            | Capture screenshot options    |
+| <kbd>▣</kbd>              | <kbd>⇧</kbd>+<kbd>□</kbd>  | Capture portion of the screen |
+| <kbd>▣</kbd>              | <kbd>▣</kbd>+<kbd>␣</kbd>  | Capture a window or menu      |
+| <kbd>⛶</kbd>              | <kbd>⌥</kbd>+<kbd>□</kbd> | Capture area of the screen    |
+
+> [!NOTE]
+> Adding `ctrl` key to previous modifications will copy to clipboard instead of saving it to a file.
 
 #### Media
 
