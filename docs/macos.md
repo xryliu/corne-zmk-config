@@ -202,7 +202,7 @@ Dedicated to Bluetooth and media controls.
 | <kbd>⛶</kbd>              | <kbd>⌥</kbd>+<kbd>□</kbd> | Capture area of the screen    |
 
 > [!NOTE]
-> Adding `ctrl` key to previous modifications will copy to clipboard instead of saving it to a file.
+> Combine `^` with `⇧` or `⌥` for sending to the clipboard instead of saving it to a file.
 
 #### Media
 
