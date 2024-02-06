@@ -71,6 +71,7 @@
         #include "os/macos/hold/layers.dtsi"
         #include "os/macos/hold/base.dtsi"
         #include "os/macos/hold/dev.dtsi"
+        #include "os/macos/hold/settings.dtsi"
 
         #include "os/android/morph/layers.dtsi"
         #include "os/android/morph/base.dtsi"

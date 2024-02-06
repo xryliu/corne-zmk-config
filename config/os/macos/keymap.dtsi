@@ -106,32 +106,33 @@
         };
 
         mac_settings_layer {
-            #define MS10  &none                // tap: fancy zones
-            #define MS11  &kp LG(LA(ESC))      // tap: task manager
-            #define MS12  &kp LC(LA(SPACE))    // tap: input source
-            #define MS24  &bt BT_CLR           // tap: clear Bluetooth
+            #define MS10  &none                  // tap: fancy zones
+            #define MS11  &kp LG(LA(ESC))        // tap: task manager
+            #define MS12  &kp LC(LA(SPACE))      // tap: input source
+            #define MB13  &hm_mSTG_LC  LCTRL  0  //A
+            #define MS24  &bt BT_CLR             // tap: clear Bluetooth
 
-            #define MS22  &hm  RCTRL  &none    // tap: system info
-            #define MS23  &none                // tap: settings
-            #define MS34  &none                // tap: security
+            #define MS22  &none                  // tap: system info
+            #define MS23  &none                  // tap: settings
+            #define MS34  &none                  // tap: security
 
-            #define MS04  &kp LG(LS(C))        // tap: color picker
-            #define MS05  &kp RG(PLUS)         // tap: zoom in
+            #define MS04  &kp LG(LS(C))          // tap: color picker
+            #define MS05  &kp RG(PLUS)           // tap: zoom in
             #define MS16  &mp_mSTG_screenshot
-            #define MS17  &mp_ma_zoom_reset    // tap: zoom reset | shift: zoom reset on vscode
-            #define MS28  &kp LA(LG(SPACE))    // tap: (finder) file explorer
-            #define MS29  &kp RG(MINUS)        // tap: zoom out
+            #define MS17  &mp_ma_zoom_reset      // tap: zoom reset | shift: zoom reset on vscode
+            #define MS28  &kp LA(LG(SPACE))      // tap: (finder) file explorer
+            #define MS29  &kp RG(MINUS)          // tap: zoom out
 
-            #define MS07  &kp RC(RA(EQUAL))    // tap: magnifier in
-            #define MS18  &kp RC(RA(N8))       // tap: magnifier on/off
+            #define MS07  &kp RC(RA(EQUAL))      // tap: magnifier in
+            #define MS18  &kp RC(RA(N8))         // tap: magnifier on/off
             #define MS19  &hm RSHFT  C_PREV
             #define MS20  &hm LALT   C_PP
-            #define MS30  &kp RC(RA(MINUS))    // tap: magnifier out
+            #define MS30  &kp RC(RA(MINUS))      // tap: magnifier out
 
             display-name = "mSTG";
             bindings = <
        MKY_ESC  &m_s_b1  &m_s_b2  &none     MS04      MS05                   MS07  &kp C_VOL_DN    &kp C_MUTE  &kp C_VOL_UP  MS10   MS11
-          MS12  &m_s_b3  &m_s_b4  &none     MS16      MS17                   MS18          MS19          MS20    &kp C_NEXT  MS22   MS23
+          MS12     MB13  &m_s_b4  &none     MS16      MS17                   MS18          MS19          MS20    &kp C_NEXT  MS22   MS23
           MS24  &m_s_b5  &m_s_b6  &none     MS28      MS29                   MS30         &none         &none         &none  MS34  &none
                            &kp C_BRI_DN  KEY_SPC  &to_mBAS               &to_mAXN       MKY_RET  &kp C_BRI_UP
             >;
