@@ -23,9 +23,9 @@ MORPH_KAS(
     STG,
     screenshot,
     screenshot,
-    MOD_LALT|MOD_RALT,
+    MOD_LALT,
     &kp RS(RG(N5)),  // tap:   screenshot and recording options
     &kp RS(RG(N4)),  // alt:   screenshot of selected area
-    &kp RS(RG(N3)),  // shift: screenshot of screen
+    &kp RS(RG(N3))   // shift: screenshot of screen
 )
 // ctrl: adding ctrl key copy to clipboard instead of saving a file
