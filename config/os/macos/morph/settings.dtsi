@@ -1,13 +1,3 @@
-// tap:          capture portion of the screen
-// tap + space:  capture a window or menu
-// shift:        capture screenshot
-mp_ma_screen: morph_mac_action_screen {
-    compatible = "zmk,behavior-mod-morph";
-    #binding-cells = <0>;
-    mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&kp RS(RG(N4))>, <&kp RG(N3)>;
-};
-
 // tap:          zoom reset
 // shift:        zoom reset vscode
 mp_ma_zoom_reset: morph_mac_action_zoom_reset {
