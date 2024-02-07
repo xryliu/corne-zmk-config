@@ -111,6 +111,7 @@ m_mi_us: macro_macos_int_u_shift {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     wait-ms = <MC_WAIT_START>;
+
     bindings
         = <&none>
         , <&macro_wait_time MC_WAIT>
@@ -171,7 +172,7 @@ m_mi_g: macro_macos_int_grave {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
-        <&kp GRAVE>;
+        <&kp GRAVE &kp SPACE>;
 };
 
 // action:  ~
@@ -179,7 +180,7 @@ m_mi_t: macro_macos_int_tilde {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
-        <&kp TILDE>;
+        <&kp TILDE &kp SPACE>;
 };
 
 // action:  ^
@@ -187,7 +188,7 @@ m_mi_c: macro_macos_int_caret {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
-        <&kp CARET>;
+        <&kp CARET &kp SPACE>;
 };
 
 // action:  "
@@ -195,7 +196,7 @@ m_mi_d: macro_macos_int_double_quote {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
-        <&kp DQT>;
+        <&kp DQT &kp SPACE>;
 };
 
 // action:  '
@@ -203,5 +204,5 @@ m_mi_s: macro_macos_int_single_quote {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings =
-        <&kp SQT>;
+        <&kp SQT &kp SPACE>;
 };
