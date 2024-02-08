@@ -8,14 +8,14 @@ mp_ma_zoom_reset: morph_mac_action_zoom_reset {
 };
 
 // mp_mSTG_f
-MORPH_KA(
+MORPH_KS(
     m,
     STG,
     f,
     files,
     MOD_LALT,
     &kp LA(LG(SPACE)),  // tap:   finder
-    &kp LS(LG(DOT))     // alt:   show/hide system files
+    &kp LS(LG(DOT))     // shift: show/hide system files
 )
 
 // mp_mSTG_screenshot
