@@ -22,6 +22,6 @@ mp_ma_paste: morph_mac_action_paste {
     compatible = "zmk,behavior-mod-morph";
     #binding-cells = <0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-    bindings = <&kp RG(V)>, <&kp RA(RG(V))>;
+    bindings = <&kp RG(V)>, <&kp RS(RG(V))>;
 };
 

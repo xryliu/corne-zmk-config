@@ -36,7 +36,6 @@ Icons used to describe some modifiers and actions
 | <kbd>↹</kbd> | Tab |
 | <kbd>⏎</kbd> | Return |
 | <kbd>⇪</kbd> | [Hold Tap](https://zmk.dev/docs/behaviors/hold-tap#hold-tap) |
-| <kbd>🔁</kbd> | [Key Repeat](https://zmk.dev/docs/behaviors/key-repeat) |
 
 ### Shared Modifiers
 
@@ -44,8 +43,8 @@ Icons used to describe some modifiers and actions
 | --------------: | --------------------------------------: | ----------------------------------------------------- |
 | <kbd>⌫</kbd>   |                                         | Backspace                                             |
 | <kbd>\|⌫</kbd> | <kbd>⇪⌫</kbd>                          | Delete word backward                                  |
-| <kbd>⌦</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>              | Delete                                                |
-| <kbd>⌦\|</kbd> | <kbd>⇧</kbd>+<kbd>⇪⌫</kbd>             | Delete word forward                                   |
+| <kbd>⌦</kbd>   |                                         | Delete                                                |
+| <kbd>⌦\|</kbd> | <kbd>⇪⌫</kbd>                          | Delete word forward                                   |
 | <kbd>F2</kbd>   | <kbd>⇪⏎</kbd>                           | Rename (like macOS)                                   |
 | <kbd>▷</kbd>   | <kbd>⇪↹</kbd>                            | left (terminal autocompletion)                        |
 | <kbd>🄰</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>               | Caps lock                                             |
@@ -116,7 +115,7 @@ Symbols and dev shortcuts for JS/TS.
 | Label               | Shortcut                                | Action                      |
 | ------------------: | --------------------------------------: | --------------------------- |
 | <kbd>//</kbd>       | <kbd>⌃</kbd>+<kbd>/</kbd>               | Toggle line comment         |
-| <kbd>/\* \*/</kbd>  | <kbd>⇧</kbd>+<kbd>/</kbd>               | Toggle block comment        |
+| <kbd>/\* \*/</kbd>  | <kbd>⌥</kbd>+<kbd>/</kbd>               | Toggle block comment        |
 
 ⇧ [Back to menu](#menu)
 
@@ -172,42 +171,39 @@ Dedicated to Bluetooth and media controls.
 
 #### Actions
 
-| Label           | Action                  |
-| --------------: |  ---------------------- |
-| <kbd>B#️⃣</kbd> | Jump to #️⃣ device        |
-| <kbd>⎉</kbd>   | Connect Quick Action     |
-| <kbd>B❌</kbd> | Clear current device     |
-| <kbd>▣</kbd>   | Print Screen             |
-| <kbd>⛢</kbd>   | Color Picker             |
-| <kbd>🖿</kbd>   | File Explorer            |
-| <kbd>Z+</kbd>   | Zoom in                  |
-| <kbd>ZR</kbd>   | Zoom reset               |
-| <kbd>Z-</kbd>   | Zoom out                 |
-| <kbd>M+</kbd>   | Magnifier in             |
-| <kbd>MR</kbd>   | Magnifier reset          |
-| <kbd>M-</kbd>   | Magnifier out            |
-| <kbd>🔅</kbd>  | Bright down              |
-| <kbd>🔆</kbd>  | Bright up                |
-| <kbd>⎚</kbd>   | Fancy Zones              |
-| <kbd>▤</kbd>   | Task Manager             |
-| <kbd>ⓘ</kbd>   | System Info             |
-| <kbd>⛨</kbd>   | Windows Security        |
-| <kbd>⎈</kbd>   | Windows Settings         |
+| Label           | Shortcut                   | Action                  |
+| --------------: | -------------------------- |  ---------------------- |
+| <kbd>B#️⃣</kbd>   |                            | Jump to #️⃣ device        |
+| <kbd>⎉</kbd>    |                            | Input source            |
+| <kbd>B❌</kbd>  |                            | Clear current device    |
+| <kbd>▣</kbd>    |                            | Print Screen            |
+| <kbd>⛢</kbd>   |                            | Color Picker            |
+| <kbd>🖿</kbd>   |                            | File Explorer           |
+| <kbd>Z+</kbd>   |                            | Zoom in                 |
+| <kbd>ZR</kbd>   |                            | Zoom reset              |
+| <kbd>ZR</kbd>   | <kbd>⇧</kbd>+<kbd>ZR</kbd> | Zoom reset VSCode       |
+| <kbd>Z-</kbd>   |                            | Zoom out                |
+| <kbd>M+</kbd>   |                            | Magnifier in            |
+| <kbd>MR</kbd>   |                            | Magnifier reset         |
+| <kbd>M-</kbd>   |                            | Magnifier out           |
+| <kbd>🔅</kbd>   |                            | Bright down             |
+| <kbd>🔆</kbd>   |                            | Bright up               |
+| <kbd>⎚</kbd>    |                            | Fancy Zones             |
+| <kbd>▤</kbd>    |                            | Task Manager            |
+| <kbd>ⓘ</kbd>    |                            | System Info             |
+| <kbd>⛨</kbd>   |                            | Windows Security        |
 
+| <kbd>⎈</kbd>    |                            | Windows Settings        |
 #### Media
 
 | Label         | Action       |
 | ------------: |  ----------- |
 | <kbd>🔊</kbd> | Volume up    |
 | <kbd>🔇</kbd> | Mute         |
-| <kbd>🔉</kbd>  | Volume down  |
-| <kbd>⏹️</kbd> | Stop         |
-| <kbd>⏪</kbd> | Fast reverse |
-| <kbd>⏮️</kbd> | Prev         |
-| <kbd>⏯️</kbd> | Play/Pause   |
-| <kbd>⏭️</kbd> | Next         |
-| <kbd>⏩</kbd> | Fast Forward |
-| <kbd>🔀</kbd> | Shuffle      |
+| <kbd>🔉</kbd>  | Volume down |
+| <kbd>⏮️</kbd> | Prev          |
+| <kbd>⏯️</kbd> | Play/Pause    |
+| <kbd>⏭️</kbd> | Next          |
 
 ⇧ [Back to menu](#menu)
 

@@ -37,7 +37,6 @@ Icons used to describe some modifiers and actions
 | <kbd>↹</kbd> | Tab |
 | <kbd>⏎</kbd> | Return |
 | <kbd>⇪</kbd> | [Hold Tap](https://zmk.dev/docs/behaviors/hold-tap#hold-tap) |
-| <kbd>🔁</kbd> | [Key Repeat](https://zmk.dev/docs/behaviors/key-repeat) |
 
 ### Shared Modifiers
 
@@ -45,8 +44,8 @@ Icons used to describe some modifiers and actions
 | --------------: | --------------------------------------: | ----------------------------------------------------- |
 | <kbd>⌫</kbd>   |                                         | Backspace                                             |
 | <kbd>\|⌫</kbd> | <kbd>⇪⌫</kbd>                          | Delete word backward                                  |
-| <kbd>⌦</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>              | Delete                                                |
-| <kbd>⌦\|</kbd> | <kbd>⇧</kbd>+<kbd>⇪⌫</kbd>             | Delete word forward                                   |
+| <kbd>⌦</kbd>   |                                         | Delete                                                |
+| <kbd>⌦\|</kbd> | <kbd>⇪⌦</kbd>                          | Delete word forward                                   |
 | <kbd>F2</kbd>   | <kbd>⇪⏎</kbd>                           | Rename (like macOS)                                   |
 | <kbd>▷</kbd>   | <kbd>⇪↹</kbd>                            | left (terminal autocompletion)                        |
 | <kbd>🄰</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>               | Caps lock                                             |
@@ -105,7 +104,6 @@ Symbols and dev shortcuts for JS/TS.
 | Label               | Shortcut                                | Action                      |
 | ------------------: | --------------------------------------: | --------------------------- |
 | <kbd>//</kbd>       | <kbd>⌃</kbd>+<kbd>/</kbd>               | Toggle line comment         |
-| <kbd>/\* \*/</kbd>  | <kbd>⇧</kbd>+<kbd>/</kbd>               | Toggle block comment        |
 
 ⇧ [Back to menu](#menu)
 
@@ -178,7 +176,6 @@ Dedicated to Bluetooth and media controls.
 | <kbd>🔊</kbd> | Volume up    |
 | <kbd>🔇</kbd> | Mute         |
 | <kbd>🔉</kbd>  | Volume down  |
-| <kbd>⏹️</kbd> | Stop         |
 | <kbd>⏮️</kbd> | Prev         |
 | <kbd>⏯️</kbd> | Play/Pause   |
 | <kbd>⏭️</kbd> | Next         |

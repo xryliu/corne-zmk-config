@@ -36,6 +36,8 @@
             #define MD21  &hm_mDEV_RC  RCMD    0
             #define MD22  &hm          RCTRL   PIPE
 
+            #define MD35  &kp LA(LG(I))                 // tap: dev tools
+
             #define MD38  &mo_mAXNmDEV_to_mBAS  0  0
             #define MD39  &mo_mAXNmDEV_to_mAXN  0  0
 
@@ -43,7 +45,7 @@
             bindings = <
     MKY_ESC     &kp AT  &mp_mDEV_pound  &mp_mDEV_money    &kp PLUS   &m_mi_d               &m_mi_t    &kp MINUS     &kp UNDER    &kp PRCNT      &m_mi_c   MNV_DEL
   &mp_mk_bc       MD13            MD14            MD15        MD16   &m_mi_s               &m_mi_g         MD19          MD20         MD21         MD22  MNV_BSPC
-    MKY_TAB  &kp LG(R)        &kp LPAR        &kp RPAR   &kp ASTRK  &kp BSLH              &kp FSLH  &mp_mDEV_qs        &kp LT       &kp GT  &mp_mDEV_ql   &kp F12
+    MKY_TAB  &kp LG(R)        &kp LPAR        &kp RPAR   &kp ASTRK  &kp BSLH            &mp_mDEV_s  &mp_mDEV_qs        &kp LT       &kp GT  &mp_mDEV_ql      MD35
                                                 &mp_cs     KEY_SPC      MD38                  MD39      MKY_RET        &mp_dc
             >;
         };
@@ -55,14 +57,12 @@
             #define MA14  &hm  LCMD   LEFT
             #define MA15  &hm  LALT   DOWN
             #define MA16  &hm  LSHFT  RIGHT
-            #define MA17  &kp  LC(H)                    // tap: replace
+            #define MA17  &kp  LA(LG(F))                // tap: replace
 
             #define MA19  &hm  LSHFT  N4
             #define MA20  &hm  LALT   N5
             #define MA21  &hm  LCMD   N6
             #define MA22  &hm  LCTRL  EQUAL
-
-            #define MA35  &hm  LG(LC(F4))  LG(LC(D))    // tap: create | hold: close (virtual desktop)
 
             #define MA38  &to_mBAS
             #define MA39  &mo_mFNKmAXN_to_mFNK    0 0
@@ -71,13 +71,13 @@
             #define MKY_REDO   &kp RS(RG(Z))   // tap: redo
             #define MKY_CUT    &kp RG(X)       // tap: cut
             #define MKY_COPY   &kp RG(C)       // tap: copy
-            #define MKY_PASTE  &mp_ma_paste    // tap: paste     | shift: paste without format
+            #define MKY_PASTE  &mp_ma_paste    // tap: paste | shift: paste without format
 
             display-name = "mAXN";
             bindings = <
     MKY_ESC      MA01  &mp_ma_prev    &kp UP  &mp_ma_next      MA05            &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY   MNV_DEL
   &mp_mk_bc      MA13         MA14      MA15         MA16      MA17                 &kp N0     MA19    MA20    MA21             MA22  MNV_BSPC
-    MKY_TAB  MKY_UNDO      MKY_CUT  MKY_COPY    MKY_PASTE  MKY_REDO                &mp_k_m   &kp N1  &kp N2  &kp N3    &kp KP_DIVIDE      MA35
+    MKY_TAB  MKY_UNDO      MKY_CUT  MKY_COPY    MKY_PASTE  MKY_REDO                &mp_k_m   &kp N1  &kp N2  &kp N3    &kp KP_DIVIDE     &none
                                       &mp_cs      KEY_SPC      MA38                   MA39  MKY_RET  &mp_dc
             >;
         };
@@ -106,31 +106,34 @@
         };
 
         mac_settings_layer {
-            #define MS10  &none                // tap: fancy zones
-            #define MS11  &kp LG(LA(ESC))      // tap: task manager
-            #define MS12  &kp LG(K)            // tap: connect device
-            #define MS24  &bt BT_CLR           // tap: clear Bluetooth
+            #define MS10  &none                  // tap: fancy zones
+            #define MS11  &kp LG(LA(ESC))        // tap: task manager
+            #define MS12  &kp LC(LA(SPACE))      // tap: input source
+            #define MB13  &hm_mSTG_LC  LCTRL  0  //A
+            #define MS24  &bt BT_CLR             // tap: clear Bluetooth
 
-            #define MS22  &none                // tap: system info
-            #define MS23  &none                // tap: settings
-            #define MS34  &none                // tap: security
+            #define MS22  &none                  // tap: system info
+            #define MS23  &none                  // tap: settings
+            #define MS34  &none                  // tap: security
 
-            #define MS04  &kp LG(LS(C))        // tap: color picker
-            #define MS05  &kp RG(PLUS)         // tap: zoom in
-            #define MS16  &mp_ma_screen        // tap: print screen
-            #define MS17  &kp RG(N0)           // tap: zoom reset
-            #define MS28  &kp LA(LG(SPACE))    // tap: (finder) file explorer
-            #define MS29  &kp RG(MINUS)        // tap: zoom out
+            #define MS04  &kp LG(LS(C))          // tap: color picker
+            #define MS05  &kp RG(PLUS)           // tap: zoom in
+            #define MS16  &mp_mSTG_screenshot
+            #define MS17  &mp_ma_zoom_reset      // tap: zoom reset | shift: zoom reset on vscode
+            #define MS28  &mp_mSTG_f             // tap: (finder) file explorer | alt: show/hide system files
+            #define MS29  &kp RG(MINUS)          // tap: zoom out
 
-            #define MS07  &kp RC(RA(EQUAL))    // tap: magnifier in
-            #define MS18  &kp RC(RA(N8))       // tap: magnifier on/off
-            #define MS30  &kp RC(RA(MINUS))    // tap: magnifier out
+            #define MS07  &kp RC(RA(EQUAL))      // tap: magnifier in
+            #define MS18  &kp RC(RA(N8))         // tap: magnifier on/off
+            #define MS19  &hm RSHFT  C_PREV
+            #define MS20  &hm LALT   C_PP
+            #define MS30  &kp RC(RA(MINUS))      // tap: magnifier out
 
             display-name = "mSTG";
             bindings = <
        MKY_ESC  &m_s_b1  &m_s_b2  &none     MS04      MS05                   MS07  &kp C_VOL_DN    &kp C_MUTE  &kp C_VOL_UP  MS10   MS11
-          MS12  &m_s_b3  &m_s_b4  &none     MS16      MS17                   MS18    &kp C_PREV      &kp C_PP    &kp C_NEXT  MS22   MS23
-          MS24  &m_s_b5  &m_s_b6  &none     MS28      MS29                   MS30      &kp C_RW    &kp C_STOP      &kp C_FF  MS34  &none
+          MS12     MB13  &m_s_b4  &none     MS16      MS17                   MS18          MS19          MS20    &kp C_NEXT  MS22   MS23
+          MS24  &m_s_b5  &m_s_b6  &none     MS28      MS29                   MS30         &none         &none         &none  MS34  &none
                            &kp C_BRI_DN  KEY_SPC  &to_mBAS               &to_mAXN       MKY_RET  &kp C_BRI_UP
             >;
         };

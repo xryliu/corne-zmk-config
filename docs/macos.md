@@ -25,7 +25,7 @@ Icons used to describe some modifiers and actions
 
 | Label        | Description |
 | :-----------: | ----------- |
-| <kbd>❖</kbd> | Win |
+| <kbd>⌘</kbd> | Command |
 | <kbd>⌃</kbd> | Control |
 | <kbd>⌥</kbd> | Alt |
 | <kbd>⇧</kbd> | Shift |
@@ -35,7 +35,6 @@ Icons used to describe some modifiers and actions
 | <kbd>⏎</kbd> | Return |
 | <kbd>␣</kbd> | Space |
 | <kbd>⇪</kbd> | [Hold Tap](https://zmk.dev/docs/behaviors/hold-tap#hold-tap) |
-| <kbd>🔁</kbd> | [Key Repeat](https://zmk.dev/docs/behaviors/key-repeat) |
 
 ### Shared Modifiers
 
@@ -43,14 +42,15 @@ Icons used to describe some modifiers and actions
 | --------------: | --------------------------------------: | ----------------------------------------------------- |
 | <kbd>⌫</kbd>   |                                         | Backspace                                             |
 | <kbd>\|⌫</kbd> | <kbd>⇪⌫</kbd>                          | Delete word backward                                  |
-| <kbd>⌦</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>              | Delete                                                |
-| <kbd>⌦\|</kbd> | <kbd>⇧</kbd>+<kbd>⇪⌫</kbd>             | Delete word forward                                   |
-| <kbd>F2</kbd>   | <kbd>⇪⏎</kbd>                           | Rename (like macOS)                                   |
-| <kbd>▷</kbd>   | <kbd>⇪↹</kbd>                            | left (terminal autocompletion)                        |
-| <kbd>🄰</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>               | Caps lock                                             |
-| <kbd>⇧⇧</kbd>  | <kbd>L⇧</kbd>+<kbd>R⇧</kbd>              | [Caps word](https://zmk.dev/docs/behaviors/caps-word) |
-| <kbd>^^</kbd>  | <kbd>L^</kbd>+<kbd>R^</kbd>              | Cancel caps                                           |
-| <kbd>❖❖</kbd>  | <kbd>L❖</kbd>+<kbd>R❖</kbd>            | Show current layout on screen                         |
+| <kbd>⌫\|</kbd> | <kbd>⌘</kbd>+<kbd>⌫</kbd>             | Delete until beginning                                   |
+| <kbd>⌦</kbd>   |                                         | Delete                                                |
+| <kbd>⌦\|</kbd> | <kbd>⇪⌦</kbd>                         | Delete word forward                                   |
+| <kbd>\|⌦</kbd> | <kbd>⌘</kbd>+<kbd>⌦</kbd>             | Delete until end                                         |
+| <kbd>▷</kbd>   | <kbd>⇪↹</kbd>                           | left (terminal autocompletion)                        |
+| <kbd>🄰</kbd>    | <kbd>⇧</kbd>+<kbd>⌫</kbd>              | Caps lock                                             |
+| <kbd>⇧⇧</kbd>   | <kbd>L⇧</kbd>+<kbd>R⇧</kbd>              | [Caps word](https://zmk.dev/docs/behaviors/caps-word) |
+| <kbd>^^</kbd>   | <kbd>L^</kbd>+<kbd>R^</kbd>              | Cancel caps                                           |
+| <kbd>⌘⌘</kbd>  | <kbd>L⌘</kbd>+<kbd>R⌘</kbd>           | Show current layout on screen                         |
 
 ⇧ [Back to menu](#menu)
 
@@ -115,7 +115,7 @@ Symbols and dev shortcuts for JS/TS.
 | Label               | Shortcut                                | Action                      |
 | ------------------: | --------------------------------------: | --------------------------- |
 | <kbd>//</kbd>       | <kbd>⌃</kbd>+<kbd>/</kbd>               | Toggle line comment         |
-| <kbd>/\* \*/</kbd>  | <kbd>⇧</kbd>+<kbd>/</kbd>               | Toggle block comment        |
+| <kbd>/\* \*/</kbd>  | <kbd>⌥</kbd>+<kbd>/</kbd>               | Toggle block comment        |
 
 ⇧ [Back to menu](#menu)
 
@@ -127,24 +127,20 @@ Quick navigation actions and numbers. Function keys works independently as a sub
 
 #### Navigation
 
-| Label          | Shortcut                               | Action               |
-| ------------: | --------------------------------------- | -------------------- |
-| <kbd>△</kbd>  |                                        | Up                    |
-| <kbd>▽</kbd>  |                                        | Down                  |
-| <kbd>◁</kbd>  |                                        | Left                  |
-| <kbd>▷</kbd>  |                                        | Right                 |
-| <kbd>⇤</kbd>  |                                         | Home                  |
-| <kbd>⇥</kbd>  |                                         | End                   |
-| <kbd>⤒</kbd>  | <kbd>^</kbd>+<kbd>⇤</kbd>               | Beginning of document |
-| <kbd>⤓</kbd>  | <kbd>^</kbd>+<kbd>⇥</kbd>               | End of document       |
-| <kbd>⇞</kbd>  |                                         | Page up               |
-| <kbd>⇟</kbd>  |                                         | Page down             |
-| <kbd>⇺</kbd>  |                                         | Prev Tab              |
-| <kbd>⇻</kbd>  |                                         | Next Tab              |
-| <kbd>▦</kbd>  |                                        | New virtual desktop   |
-| <kbd>▩</kbd>  |                                        | Close virtual desktop |
-| <kbd>⎗</kbd>  | <kbd>⇧</kbd>+<kbd>⇺</kbd>              | Prev desktop          |
-| <kbd>⎘</kbd>  | <kbd>⇧</kbd>+<kbd>⇻</kbd>              | Next desktop          |
+| Label         | Shortcut                   | Action                |
+| ------------: | -------------------------- | --------------------- |
+| <kbd>△</kbd>  |                            | Up                    |
+| <kbd>▽</kbd>  |                            | Down                  |
+| <kbd>◁</kbd>  |                            | Left                  |
+| <kbd>▷</kbd>  |                            | Right                 |
+| <kbd>⇤</kbd>  |                            | Home                  |
+| <kbd>⇥</kbd>  |                            | End                   |
+| <kbd>⤒</kbd>  | <kbd>^</kbd>+<kbd>⇤</kbd>  | Beginning of document |
+| <kbd>⤓</kbd>  | <kbd>^</kbd>+<kbd>⇥</kbd>  | End of document       |
+| <kbd>⇞</kbd>  |                            | Page up               |
+| <kbd>⇟</kbd>  |                            | Page down             |
+| <kbd>⇺</kbd>  |                            | Prev Tab              |
+| <kbd>⇻</kbd>  |                            | Next Tab              |
 
 #### Actions
 
@@ -171,29 +167,44 @@ Dedicated to Bluetooth and media controls.
 
 #### Actions
 
-| Label                     | Action                        |
-| ------------------------: |  ---------------------------- |
-| <kbd>B#️⃣</kbd>            | Jump to #️⃣ device             |
-| <kbd>⎉</kbd>              | Connect Quick Action          |
-| <kbd>B❌</kbd>            | Clear current device          |
-| <kbd>▣</kbd>              | Capture portion of the screen |
-| <kbd>▣</kbd>+<kbd>␣</kbd> | Capture a window or menu      |
-| <kbd>□</kbd>              | Capture screen shoot          |
-| <kbd>⛢</kbd>              | Color Picker                 |
-| <kbd>🖿</kbd>              | Finder (File Explorer)       |
-| <kbd>Z+</kbd>              | Zoom in                      |
-| <kbd>ZR</kbd>              | Zoom reset                   |
-| <kbd>Z-</kbd>              | Zoom out                     |
-| <kbd>M+</kbd>              | Magnifier in                 |
-| <kbd>MR</kbd>              | Magnifier reset              |
-| <kbd>M-</kbd>              | Magnifier out                |
-| <kbd>🔅</kbd>              | Bright down                  |
-| <kbd>🔆</kbd>              | Bright up                    |
-| <kbd>⎚</kbd>               | Fancy Zones                  |
-| <kbd>▤</kbd>               | Task Manager                 |
-| <kbd>ⓘ</kbd>              | System Info                   |
-| <kbd>⛨</kbd>              | Security                      |
-| <kbd>⎈</kbd>               | Settings                     |
+| Label                     | Shortcut                   | Action                        |
+| ------------------------: | -------------------------- |  ---------------------------- |
+| <kbd>B#️⃣</kbd>             |                            | Jump to #️⃣ device              |
+| <kbd>⎉</kbd>              |                            | Input Source                  |
+| <kbd>B❌</kbd>            |                            | Clear current device          |
+| <kbd>Z+</kbd>             |                            | Zoom in                       |
+| <kbd>ZR</kbd>             |                            | Zoom reset                    |
+| <kbd>ZR</kbd>             | <kbd>⇧</kbd>+<kbd>ZR</kbd> | Zoom reset VSCode             |
+| <kbd>Z-</kbd>             |                            | Zoom out                      |
+| <kbd>M+</kbd>             |                            | Magnifier in                  |
+| <kbd>MR</kbd>             |                            | Magnifier toggle/reset        |
+| <kbd>M-</kbd>             |                            | Magnifier out                 |
+| <kbd>🔅</kbd>             |                            | Bright down                   |
+| <kbd>🔆</kbd>             |                            | Bright up                     |
+| <kbd>⎚</kbd>              |                            | Fancy Zones                   |
+| <kbd>▤</kbd>              |                            | Task Manager                  |
+| <kbd>ⓘ</kbd>              |                            | System Info                   |
+| <kbd>⛨</kbd>             |                            | Security                      |
+| <kbd>⎈</kbd>              |                            | Settings                      |
+
+> [!IMPORTANT]
+> Magnifier tools required to be enabled by `setting` -> `accessibility` -> `zoom` and enabling `use keyboard shortcuts to zoom`.
+
+#### Tools
+
+| Label                     | Shortcut                   | Action                        |
+| ------------------------: | -------------------------- |  ---------------------------- |
+| <kbd>⛢</kbd>             |                            | Show Color Picker             |
+| <kbd>🜜</kbd>              | <kbd>⌥</kbd>+<kbd>⛢</kbd> | Pick a color                  |
+| <kbd>□</kbd>              |                            | Capture screenshot options    |
+| <kbd>▣</kbd>              | <kbd>⇧</kbd>+<kbd>□</kbd>  | Capture portion of the screen |
+| <kbd>▣</kbd>              | <kbd>▣</kbd>+<kbd>␣</kbd>  | Capture a window or menu      |
+| <kbd>⛶</kbd>             | <kbd>⌥</kbd>+<kbd>□</kbd>  | Capture area of the screen    |
+| <kbd>⎅</kbd>              |                            | Finder (File Explorer)        |
+| <kbd>⌑</kbd>              | <kbd>⌥</kbd>+<kbd>⎅</kbd>  | Show/hide system files        |
+
+> [!NOTE]
+> Combine `^` with `⇧` or `⌥` for sending to the clipboard instead of saving it to a file.
 
 #### Media
 
@@ -202,12 +213,8 @@ Dedicated to Bluetooth and media controls.
 | <kbd>🔊</kbd> | Volume up    |
 | <kbd>🔇</kbd> | Mute         |
 | <kbd>🔉</kbd> | Volume down  |
-| <kbd>⏹️</kbd> | Stop         |
-| <kbd>⏪</kbd> | Fast reverse |
 | <kbd>⏮️</kbd> | Prev         |
 | <kbd>⏯️</kbd> | Play/Pause   |
 | <kbd>⏭️</kbd> | Next         |
-| <kbd>⏩</kbd> | Fast Forward |
-| <kbd>🔀</kbd> | Shuffle      |
 
 ⇧ [Back to menu](#menu)
