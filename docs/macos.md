@@ -172,8 +172,6 @@ Dedicated to Bluetooth and media controls.
 | <kbd>B#️⃣</kbd>             |                            | Jump to #️⃣ device              |
 | <kbd>⎉</kbd>              |                            | Input Source                  |
 | <kbd>B❌</kbd>            |                            | Clear current device          |
-| <kbd>⛢</kbd>             |                            | Color Picker                  |
-| <kbd>🖿</kbd>             |                            | Finder (File Explorer)        |
 | <kbd>Z+</kbd>             |                            | Zoom in                       |
 | <kbd>ZR</kbd>             |                            | Zoom reset                    |
 | <kbd>ZR</kbd>             | <kbd>⇧</kbd>+<kbd>ZR</kbd> | Zoom reset VSCode             |
@@ -192,14 +190,18 @@ Dedicated to Bluetooth and media controls.
 > [!IMPORTANT]
 > Magnifier tools required to be enabled by `setting` -> `accessibility` -> `zoom` and enabling `use keyboard shortcuts to zoom`.
 
-#### Screenshot
+#### Tools
 
 | Label                     | Shortcut                   | Action                        |
 | ------------------------: | -------------------------- |  ---------------------------- |
+| <kbd>⛢</kbd>             |                            | Show Color Picker             |
+| <kbd>🜜</kbd>              | <kbd>⌥</kbd>+<kbd>⛢</kbd> | Pick a color                  |
 | <kbd>□</kbd>              |                            | Capture screenshot options    |
 | <kbd>▣</kbd>              | <kbd>⇧</kbd>+<kbd>□</kbd>  | Capture portion of the screen |
 | <kbd>▣</kbd>              | <kbd>▣</kbd>+<kbd>␣</kbd>  | Capture a window or menu      |
-| <kbd>⛶</kbd>              | <kbd>⌥</kbd>+<kbd>□</kbd> | Capture area of the screen    |
+| <kbd>⛶</kbd>             | <kbd>⌥</kbd>+<kbd>□</kbd>  | Capture area of the screen    |
+| <kbd>⎅</kbd>              |                            | Finder (File Explorer)        |
+| <kbd>⌑</kbd>              | <kbd>⌥</kbd>+<kbd>⎅</kbd>  | Show/hide system files        |
 
 > [!NOTE]
 > Combine `^` with `⇧` or `⌥` for sending to the clipboard instead of saving it to a file.

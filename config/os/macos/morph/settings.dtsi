@@ -7,6 +7,17 @@ mp_ma_zoom_reset: morph_mac_action_zoom_reset {
     bindings = <&kp RG(N0)>, <&kp RG(KP_N0)>;
 };
 
+// mp_mSTG_f
+MORPH_KA(
+    m,
+    STG,
+    f,
+    files,
+    MOD_LALT,
+    &kp LA(LG(SPACE)),  // tap:   finder
+    &kp LS(LG(DOT))     // alt:   show/hide system files
+)
+
 // mp_mSTG_screenshot
 MORPH_KAS(
     m,
