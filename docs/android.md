@@ -26,32 +26,32 @@ This is a WIP layout based on Colemak DHm for using on Android (with **en-US** l
 
 Icons used to describe some modifiers and actions
 
-| Label        | Description |
-| :-----------: | ----------- |
-| <kbd>❖</kbd> | Win |
-| <kbd>⌃</kbd> | Control |
-| <kbd>⌥</kbd> | Alt |
-| <kbd>⇧</kbd> | Shift |
-| <kbd>🄰</kbd> | Caps Lock|
-| <kbd>⎋</kbd> | Esc |
-| <kbd>↹</kbd> | Tab |
-| <kbd>⏎</kbd> | Return |
+| Label        | Description                                                  |
+| :----------: | ------------------------------------------------------------ |
+| <kbd>❖</kbd> | Win                                                          |
+| <kbd>⌃</kbd> | Control                                                      |
+| <kbd>⌥</kbd> | Alt                                                          |
+| <kbd>⇧</kbd> | Shift                                                        |
+| <kbd>🄰</kbd> | Caps Lock                                                    |
+| <kbd>⎋</kbd> | Esc                                                          |
+| <kbd>↹</kbd> | Tab                                                          |
+| <kbd>⏎</kbd> | Return                                                       |
 | <kbd>⇪</kbd> | [Hold Tap](https://zmk.dev/docs/behaviors/hold-tap#hold-tap) |
 
 ### Shared Modifiers
 
-| Label           | Shortcut                                | Actions                                               |
-| --------------: | --------------------------------------: | ----------------------------------------------------- |
-| <kbd>⌫</kbd>   |                                         | Backspace                                             |
-| <kbd>\|⌫</kbd> | <kbd>⇪⌫</kbd>                          | Delete word backward                                  |
-| <kbd>⌦</kbd>   |                                         | Delete                                                |
-| <kbd>⌦\|</kbd> | <kbd>⇪⌦</kbd>                          | Delete word forward                                   |
-| <kbd>F2</kbd>   | <kbd>⇪⏎</kbd>                           | Rename (like macOS)                                   |
-| <kbd>▷</kbd>   | <kbd>⇪↹</kbd>                            | left (terminal autocompletion)                        |
-| <kbd>🄰</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>               | Caps lock                                             |
-| <kbd>⇧⇧</kbd>  | <kbd>L⇧</kbd>+<kbd>R⇧</kbd>              | [Caps word](https://zmk.dev/docs/behaviors/caps-word) |
-| <kbd>^^</kbd>  | <kbd>L^</kbd>+<kbd>R^</kbd>              | Cancel caps                                           |
-| <kbd>❖❖</kbd>  | <kbd>L❖</kbd>+<kbd>R❖</kbd>            | Show current layout on screen                         |
+| Label          | Shortcut                    | Actions                                               |
+| -------------: | --------------------------: | ----------------------------------------------------- |
+| <kbd>⌫</kbd>   |                             | Backspace                                             |
+| <kbd>\|⌫</kbd> | <kbd>⇪⌫</kbd>               | Delete word backward                                  |
+| <kbd>⌦</kbd>   |                             | Delete                                                |
+| <kbd>⌦\|</kbd> | <kbd>⇪⌦</kbd>               | Delete word forward                                   |
+| <kbd>F2</kbd>  | <kbd>⇪⏎</kbd>               | Rename (like macOS)                                   |
+| <kbd>▷</kbd>   | <kbd>⇪↹</kbd>               | left (terminal autocompletion)                        |
+| <kbd>🄰</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>   | Caps lock                                             |
+| <kbd>⇧⇧</kbd>  | <kbd>L⇧</kbd>+<kbd>R⇧</kbd> | [Caps word](https://zmk.dev/docs/behaviors/caps-word) |
+| <kbd>^^</kbd>  | <kbd>L^</kbd>+<kbd>R^</kbd> | Cancel caps                                           |
+| <kbd>❖❖</kbd>  | <kbd>L❖</kbd>+<kbd>R❖</kbd> | Show current layout on screen                         |
 
 ⇧ [Back to menu](#menu)
 
@@ -67,8 +67,8 @@ Letters, accents for Spanish language and quick shortcuts for most used symbols 
 
 #### Spanish
 
-| Label        | Shortcut                                 |
-| :----------: | ---------------------------------------: |
+| Label        | Shortcut                                |
+| :----------: | --------------------------------------: |
 | <kbd>á</kbd> | <kbd>⌥</kbd>+<kbd>a</kbd>               |
 | <kbd>Á</kbd> | <kbd>⇧</kbd>+<kbd>⌥</kbd>+<kbd>a</kbd>  |
 | <kbd>é</kbd> | <kbd>⌥</kbd>+<kbd>e</kbd>               |
@@ -79,8 +79,8 @@ Letters, accents for Spanish language and quick shortcuts for most used symbols 
 | <kbd>Ó</kbd> | <kbd>⇧</kbd>+<kbd>⌥</kbd>+<kbd>o</kbd>  |
 | <kbd>ú</kbd> | <kbd>⌥</kbd>+<kbd>u</kbd>               |
 | <kbd>Ú</kbd> | <kbd>⇧</kbd>+<kbd>⌥</kbd>+<kbd>u</kbd>  |
-| <kbd>ü</kbd> | <kbd>^</kbd>+<kbd>u</kbd>                |
-| <kbd>Ü</kbd> | <kbd>⇧</kbd>+<kbd>^</kbd>+<kbd>u</kbd>   |
+| <kbd>ü</kbd> | <kbd>^</kbd>+<kbd>u</kbd>               |
+| <kbd>Ü</kbd> | <kbd>⇧</kbd>+<kbd>^</kbd>+<kbd>u</kbd>  |
 | <kbd>ñ</kbd> | <kbd>⌥</kbd>+<kbd>n</kbd>               |
 | <kbd>Ñ</kbd> | <kbd>⇧</kbd>+<kbd>⌥</kbd>+<kbd>n</kbd>  |
 
@@ -94,16 +94,16 @@ Symbols and dev shortcuts for JS/TS.
 
 #### Browser DevTools
 
-| Label        | Shortcut                     | Action                      |
-| -----------: | ---------------------------: | --------------------------- |
-| <kbd>↻</kbd> | <kbd>↻</kbd>                 | Refresh                     |
-| <kbd>⟳</kbd> | <kbd>⇧</kbd>+<kbd>↻</kbd>   | Hard refresh (clean cache)  |
+| Label        | Shortcut                  | Action                      |
+| -----------: | ------------------------: | --------------------------- |
+| <kbd>↻</kbd> | <kbd>↻</kbd>              | Refresh                     |
+| <kbd>⟳</kbd> | <kbd>⇧</kbd>+<kbd>↻</kbd> | Hard refresh (clean cache)  |
 
 #### VS Code
 
-| Label               | Shortcut                                | Action                      |
-| ------------------: | --------------------------------------: | --------------------------- |
-| <kbd>//</kbd>       | <kbd>⌃</kbd>+<kbd>/</kbd>               | Toggle line comment         |
+| Label               | Shortcut                   | Action               |
+| ------------------: | -------------------------: | -------------------- |
+| <kbd>//</kbd>       | <kbd>⌃</kbd>+<kbd>/</kbd>  | Toggle line comment  |
 
 ⇧ [Back to menu](#menu)
 
@@ -115,34 +115,34 @@ Quick navigation actions and numbers. Function keys works independently as a sub
 
 #### Navigation
 
-| Label          | Shortcut                               | Action               |
-| ------------: | --------------------------------------- | -------------------- |
-| <kbd>△</kbd>  |                                        | Up                    |
-| <kbd>▽</kbd>  |                                        | Down                  |
-| <kbd>◁</kbd>  |                                        | Left                  |
-| <kbd>▷</kbd>  |                                        | Right                 |
-| <kbd>⇤</kbd>  |                                         | Home                  |
-| <kbd>⇥</kbd>  |                                         | End                   |
-| <kbd>⤒</kbd>  | <kbd>^</kbd>+<kbd>⇤</kbd>               | Beginning of document |
-| <kbd>⤓</kbd>  | <kbd>^</kbd>+<kbd>⇥</kbd>               | End of document       |
-| <kbd>⇞</kbd>  |                                         | Page up               |
-| <kbd>⇟</kbd>  |                                         | Page down             |
-| <kbd>⇺</kbd>  |                                         | Prev Tab              |
-| <kbd>⇻</kbd>  |                                         | Next Tab              |
+| Label         | Shortcut                  | Action                |
+| ------------: | ------------------------- | --------------------- |
+| <kbd>△</kbd>  |                           | Up                    |
+| <kbd>▽</kbd>  |                           | Down                  |
+| <kbd>◁</kbd>  |                           | Left                  |
+| <kbd>▷</kbd>  |                           | Right                 |
+| <kbd>⇤</kbd>  |                           | Home                  |
+| <kbd>⇥</kbd>  |                           | End                   |
+| <kbd>⤒</kbd>  | <kbd>^</kbd>+<kbd>⇤</kbd> | Beginning of document |
+| <kbd>⤓</kbd>  | <kbd>^</kbd>+<kbd>⇥</kbd> | End of document       |
+| <kbd>⇞</kbd>  |                           | Page up               |
+| <kbd>⇟</kbd>  |                           | Page down             |
+| <kbd>⇺</kbd>  |                           | Prev Tab              |
+| <kbd>⇻</kbd>  |                           | Next Tab              |
 
 #### Actions
 
-| Label         | Shortcut                   | Action               |
-| ------------: | -------------------------- | -------------------- |
+| Label          | Shortcut                   | Action               |
+| -------------: | -------------------------- | -------------------- |
 | <kbd><\|</kbd> |                            | Expand selection     |
 | <kbd>\|></kbd> |                            | Shrink selection     |
-| <kbd>↶</kbd> |                            | Undo                 |
-| <kbd>↷</kbd> |                            | Redo                 |
-| <kbd>⬚</kbd> |                            | Cut                  |
-| <kbd>⿻</kbd> |                            | Copy                 |
-| <kbd>⏍</kbd> |                            | Paste                |
-| <kbd>☉</kbd> |                             | Find                |
-| <kbd>☊</kbd> |                             | Replace             |
+| <kbd>↶</kbd>   |                            | Undo                 |
+| <kbd>↷</kbd>   |                            | Redo                 |
+| <kbd>⬚</kbd>   |                            | Cut                  |
+| <kbd>⿻</kbd>  |                            | Copy                 |
+| <kbd>⏍</kbd>   |                            | Paste                |
+| <kbd>☉</kbd>  |                            | Find                 |
+| <kbd>☊</kbd>  |                            | Replace              |
 
 ⇧ [Back to menu](#menu)
 
@@ -154,20 +154,20 @@ Dedicated to Bluetooth and media controls.
 
 #### Actions
 
-| Label           | Action                   |
-| --------------: |  ----------------------- |
-| <kbd>B#️⃣</kbd>  | Jump to #️⃣ device        |
-| <kbd>B❌</kbd>  | Clear current device     |
-| <kbd>🌐</kbd>   | Browser                 |
-| <kbd>🎤</kbd>   | Assist                  |
-| <kbd>📅</kbd>   | Calendar                 |
-| <kbd>🎼</kbd>   | Music                    |
-| <kbd>📧</kbd>   | Mail                     |
-| <kbd>📞</kbd>   | Contacts                 |
-| <kbd>⌂</kbd>    | Home                     |
-| <kbd>⛬</kbd>   | Notifications            |
-| <kbd>▤</kbd>    | Apps                     |
-| <kbd>⍰</kbd>   | Shortcuts               |
+| Label          | Action                   |
+| -------------: |  ----------------------- |
+| <kbd>B#️⃣</kbd>  | Jump to #️⃣ device         |
+| <kbd>B❌</kbd> | Clear current device     |
+| <kbd>🌐</kbd>  | Browser                  |
+| <kbd>🎤</kbd>  | Assist                   |
+| <kbd>📅</kbd>  | Calendar                 |
+| <kbd>🎼</kbd>  | Music                    |
+| <kbd>📧</kbd>  | Mail                     |
+| <kbd>📞</kbd>  | Contacts                 |
+| <kbd>⌂</kbd>   | Home                     |
+| <kbd>⛬</kbd>  | Notifications            |
+| <kbd>▤</kbd>   | Apps                     |
+| <kbd>⍰</kbd>   | Shortcuts                |
 
 #### Media
 
@@ -175,10 +175,10 @@ Dedicated to Bluetooth and media controls.
 | ------------: |  ----------- |
 | <kbd>🔊</kbd> | Volume up    |
 | <kbd>🔇</kbd> | Mute         |
-| <kbd>🔉</kbd>  | Volume down  |
-| <kbd>⏮️</kbd> | Prev         |
-| <kbd>⏯️</kbd> | Play/Pause   |
-| <kbd>⏭️</kbd> | Next         |
+| <kbd>🔉</kbd> | Volume down  |
+| <kbd>⏮️</kbd>  | Prev         |
+| <kbd>⏯️</kbd>  | Play/Pause   |
+| <kbd>⏭️</kbd>  | Next         |
 
 ⇧ [Back to menu](#menu)
 
