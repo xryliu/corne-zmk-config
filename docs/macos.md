@@ -28,7 +28,7 @@ Icons used to describe some modifiers and actions
 | <kbd>⌘</kbd> | Command                                                      |
 | <kbd>⌃</kbd> | Control                                                      |
 | <kbd>⌥</kbd> | Alt                                                          |
-| <kbd>⇧</kbd> | Shift                                                        |                                                    
+| <kbd>⇧</kbd> | Shift                                                        |
 | <kbd>🄰</kbd> | Caps Lock                                                    |
 | <kbd>⎋</kbd> | Esc                                                          |
 | <kbd>↹</kbd> | Tab                                                          |
@@ -51,7 +51,7 @@ Icons used to describe some modifiers and actions
 | <kbd>▷</kbd>   | <kbd>⇪↹</kbd>               | Left (terminal autocompletion)                        |
 | <kbd>🄰</kbd>   | <kbd>⇧</kbd>+<kbd>⌫</kbd>   | Caps lock                                             |
 | <kbd>⇧⇧</kbd>  | <kbd>L⇧</kbd>+<kbd>R⇧</kbd> | [Caps word](https://zmk.dev/docs/behaviors/caps-word) |
-| <kbd>^^</kbd>  | <kbd>L^</kbd>+<kbd>R^</kbd> | Cancel caps                                           |
+| <kbd>⌘⌘</kbd>  | <kbd>L^</kbd>+<kbd>R^</kbd> | Cancel caps                                           |
 
 ### Files
 
@@ -60,12 +60,11 @@ Icons used to describe some modifiers and actions
 | <kbd>⌫</kbd> | <kbd>⌘</kbd>+<kbd>⌫</kbd>               | Move to trash           |
 | <kbd>⌫</kbd> | <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>⌫</kbd>  | Delete file permanently |
 
-
 ### Layers
 
 | Label          | Shortcut                    | Actions                        |
 | -------------: | --------------------------: | ------------------------------ |
-| <kbd>⌘⌘</kbd>  | <kbd>L⌘</kbd>+<kbd>R⌘</kbd> | Show current layout on screen  |
+| <kbd>⌥⌥</kbd>  | <kbd>L⌘</kbd>+<kbd>R⌘</kbd> | Show current layout on screen  |
 
 ⇧ [Back to menu](#menu)
 
@@ -191,19 +190,10 @@ Dedicated to Bluetooth and media controls.
 | <kbd>ZR</kbd>   |                            | Zoom reset                    |
 | <kbd>ZR</kbd>   | <kbd>⇧</kbd>+<kbd>ZR</kbd> | Zoom reset VSCode             |
 | <kbd>Z-</kbd>   |                            | Zoom out                      |
-| <kbd>M+</kbd>   |                            | Magnifier in                  |
-| <kbd>MR</kbd>   |                            | Magnifier toggle/reset        |
-| <kbd>M-</kbd>   |                            | Magnifier out                 |
 | <kbd>🔅</kbd>   |                            | Bright down                   |
 | <kbd>🔆</kbd>   |                            | Bright up                     |
-| <kbd>⎚</kbd>    |                            | Fancy Zones                   |
-| <kbd>▤</kbd>    |                            | Task Manager                  |
-| <kbd>ⓘ</kbd>    |                            | System Info                   |
-| <kbd>⛨</kbd>   |                            | Security                      |
-| <kbd>⎈</kbd>    |                            | Settings                      |
-
-> [!IMPORTANT]
-> Magnifier tools required to be enabled by `setting` -> `accessibility` -> `zoom` and enabling `use keyboard shortcuts to zoom`.
+| <kbd>⎚</kbd>    |                            | Application Window            |
+| <kbd>▤</kbd>    |                            | Mission Control               |
 
 #### Tools
 
@@ -228,8 +218,5 @@ Dedicated to Bluetooth and media controls.
 | <kbd>🔊</kbd> | Volume up    |
 | <kbd>🔇</kbd> | Mute         |
 | <kbd>🔉</kbd> | Volume down  |
-| <kbd>⏮️</kbd>  | Prev         |
-| <kbd>⏯️</kbd>  | Play/Pause   |
-| <kbd>⏭️</kbd>  | Next         |
 
 ⇧ [Back to menu](#menu)

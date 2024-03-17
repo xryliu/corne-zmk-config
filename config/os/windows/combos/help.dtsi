@@ -1,33 +1,33 @@
 combo_windows_help-wBAS {
-    bindings = <&kp LC(LA(LS(F_wBAS)))>;
+    bindings = <&kp LG(LC(F_wBAS))>;
     key-positions = <13 22>;
     slow-release;
     layers = <wBAS>;
 };
 
 combo_windows_help-wDEV {
-    bindings = <&kp LC(LA(LS(F_wDEV)))>;
+    bindings = <&kp LG(LC(F_wDEV))>;
     key-positions = <13 22>;
     slow-release;
     layers = <wDEV>;
 };
 
 combo_windows_help-wAXN {
-    bindings = <&kp LC(LA(LS(F_wAXN)))>;
+    bindings = <&kp LG(LC(F_wAXN))>;
     key-positions = <13 22>;
     slow-release;
     layers = <wAXN>;
 };
 
 combo_windows_help-wFNK {
-    bindings = <&kp LC(LA(LS(F_wFNK)))>;
+    bindings = <&kp LG(LC(F_wFNK))>;
     key-positions = <13 22>;
     slow-release;
     layers = <wFNK>;
 };
 
 combo_windows_help-wSTG {
-    bindings = <&kp LC(LA(LS(F_wSTG)))>;
+    bindings = <&kp LG(LC(F_wSTG))>;
     key-positions = <13 22>;
     slow-release;
     layers = <wSTG>;

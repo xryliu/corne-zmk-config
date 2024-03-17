@@ -29,3 +29,15 @@ MORPH_KAS(
     &kp RS(RG(N3))   // shift: screenshot of screen
 )
 // ctrl: adding ctrl key copy to clipboard instead of saving a file
+
+// mp_mSTG_rectangle
+MORPH_KAS(
+    m,
+    STG,
+    rectangle,
+    rectangle,
+    MOD_LALT,
+    &kp LA(LC(F)),              // tap:   maximize
+    &kp LA(LC(BACKSPACE)),      // alt:   restore
+    &kp LS(LA(LC(F)))           // shift: center
+)

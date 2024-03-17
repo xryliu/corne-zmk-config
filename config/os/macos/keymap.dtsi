@@ -106,35 +106,64 @@
         };
 
         mac_settings_layer {
-            #define MS10  &none                  // tap: fancy zones
-            #define MS11  &kp LG(LA(ESC))        // tap: task manager
-            #define MS12  &kp LC(LA(SPACE))      // tap: input source
-            #define MB13  &hm_mSTG_LC  LCTRL  0  //A
-            #define MS24  &bt BT_CLR             // tap: clear Bluetooth
+            #define MSLU0  MKY_ESC
+            #define MSLU1  &m_s_b1
+            #define MSLU2  &m_s_b2
+            #define MSLU3  &none
+            #define MSLU4  &kp LG(LS(C))                // tap: color picker
+            #define MSLU5  &kp RG(PLUS)                 // tap: zoom in
 
-            #define MS22  &none                  // tap: system info
-            #define MS23  &none                  // tap: settings
-            #define MS34  &none                  // tap: security
+            #define MSLM0  &kp LC(LA(SPACE))            // tap: input source
+            #define MSLM1  &hm_mSTG_LC  LCTRL  0        // tap: m_s_b3
+            #define MSLM2  &m_s_b4
+            #define MSLM3  &kp LALT
+            #define MSLM4  &hm_mSTG_LS  LSHFT  0        // tap: mp_mSTG_screenshot
+            #define MSLM5  &mp_ma_zoom_reset            // tap: zoom reset | shift: zoom reset on vscode
 
-            #define MS04  &kp LG(LS(C))          // tap: color picker
-            #define MS05  &kp RG(PLUS)           // tap: zoom in
-            #define MS16  &mp_mSTG_screenshot
-            #define MS17  &mp_ma_zoom_reset      // tap: zoom reset | shift: zoom reset on vscode
-            #define MS28  &mp_mSTG_f             // tap: (finder) file explorer | alt: show/hide system files
-            #define MS29  &kp RG(MINUS)          // tap: zoom out
+            #define MSLD0  &bt BT_CLR
+            #define MSLD1  &m_s_b5
+            #define MSLD2  &m_s_b6
+            #define MSLD3  &none
+            #define MSLD4  &mp_mSTG_f                   // tap: (finder) file explorer | alt: show/hide system files
+            #define MSLD5  &kp RG(MINUS)                // tap: zoom out
 
-            #define MS07  &kp RC(RA(EQUAL))      // tap: magnifier in
-            #define MS18  &kp RC(RA(N8))         // tap: magnifier on/off
-            #define MS19  &hm RSHFT  C_PREV
-            #define MS20  &hm LALT   C_PP
-            #define MS30  &kp RC(RA(MINUS))      // tap: magnifier out
+
+            #define MSRU0  &kp C_VOL_UP
+            #define MSRU1  &kp LS(LA(LG(LC(LEFT))))     // tap: rectangle top left
+            #define MSRU2  &kp LS(LA(LG(UP)))           // tap: rectangle top half
+            #define MSRU3  &kp LS(LA(LG(LC(RIGHT))))    // tap: rectangle top right
+            #define MSRU4  &none
+            #define MSRU5  &none                        // tap: task manager
+
+            #define MSRM0  &kp C_MUTE
+            #define MSRM1  &hm RSHFT  LS(LA(LG(LEFT)))  // tap: rectangle left half
+            #define MSRM2  &hm_mSTG_RA  LALT 0          // tap: mp_mSTG_rectangle
+            #define MSRM3  &kp LS(LA(LG(RIGHT)))        // tap: rectangle right half
+            #define MSRM4  &kp LC(UP)                   // tap: mission control
+            #define MSRM5  &none
+
+            #define MSRD0  &kp C_VOL_DN
+            #define MSRD1  &kp LA(LG(LC(LEFT)))         // tap: rectangle bottom left
+            #define MSRD2  &kp LS(LA(LG(DOWN)))         // tap: rectangle bottom half
+            #define MSRD3  &kp LA(LG(LC(RIGHT)))        // tap: rectangle bottom right
+            #define MSRD4  &kp LC(DOWN)                 // tap: application window
+            #define MSRD5  &none
+
+
+            #define MSLT2  &kp C_BRI_DN
+            #define MSLT1  KEY_SPC
+            #define MSLT0  &to_mBAS
+
+            #define MSRT0  &to_mAXN
+            #define MSRT1  MKY_RET
+            #define MSRT2  &kp C_BRI_UP
+
 
             display-name = "mSTG";
             bindings = <
-       MKY_ESC  &m_s_b1  &m_s_b2  &none     MS04      MS05                   MS07  &kp C_VOL_DN    &kp C_MUTE  &kp C_VOL_UP  MS10   MS11
-          MS12     MB13  &m_s_b4  &none     MS16      MS17                   MS18          MS19          MS20    &kp C_NEXT  MS22   MS23
-          MS24  &m_s_b5  &m_s_b6  &none     MS28      MS29                   MS30         &none         &none         &none  MS34  &none
-                           &kp C_BRI_DN  KEY_SPC  &to_mBAS               &to_mAXN       MKY_RET  &kp C_BRI_UP
+              MSLU0  MSLU1  MSLU2  MSLU3  MSLU4  MSLU5    MSRU0  MSRU1  MSRU2  MSRU3  MSRU4  MSRU5
+              MSLM0  MSLM1  MSLM2  MSLM3  MSLM4  MSLM5    MSRM0  MSRM1  MSRM2  MSRM3  MSRM4  MSRM5
+              MSLD0  MSLD1  MSLD2  MSLD3  MSLD4  MSLD5    MSRD0  MSRD1  MSRD2  MSRD3  MSRD4  MSRD5
+                                   MSLT2  MSLT1  MSLT0    MSRT0  MSRT1  MSRT2
             >;
         };
-

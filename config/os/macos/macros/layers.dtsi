@@ -14,20 +14,22 @@ cw_mCAPS: cw_mCAPS {
     #binding-cells = <0>;
     tap-ms = <MC_TAP>;
     bindings
-        = <&kp H_mCWR>
+        = <&kp LS(H_mCWR)>
         , <&kp CAPS>;
 };
 
 cw_mON: cw_mON {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings =
-        <&kp LS(H_mCWR) &cw>;
+    bindings
+        = <&kp LA(H_mCWR)>
+        , <&cw>;
 };
 
 cw_mOFF: cw_mOFF {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings =
-        <&kp LS(LC(H_mCWR)) &kp K_CANCEL>;
+    bindings
+        = <&kp LS(LC(H_mCWR))>
+        , <&kp K_CANCEL>;
 };
