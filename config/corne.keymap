@@ -1,4 +1,23 @@
-        windows_base_layer {
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+
+&mt {
+    tapping-term-ms = <200>;
+};
+
+&lt {
+    quick-tap-ms = <400>;
+};
+
+windows_base_layer {
             #define WB13  &hm_wBAS_LC  LCMD  0  //A
             #define WB14  &hm  LCTRL   R
             #define WB15  &hm  LALT    S
